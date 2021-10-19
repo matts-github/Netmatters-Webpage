@@ -14,29 +14,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/1362e91b13.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
         <title>Netmatters</title>
     </head>
     <body>
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
-                        <div class="logo-container">
-                            <a class="logo" href="#">
-                                <i class="fab fa-apper fa-10x"></i>
-                            </a>
-                        </div>
+        <div id="header">
+            <header>
+                <div class="container">
+                    <div class="logo-container">
+                        <a class="logo" href="#">
+                            <img src="img/logo.jpg" alt="logo">
+                        </a>
                     </div>
-                    <div class="col-xs-3 hidden-sm hidden-md hidden-lg mobile-container">
+                    <div class="mobile-container">
                         <a class="=mobile" href="#"><i class="fas fa-phone-volume fa-lg"></i></a>
                     </div>
-                    <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8">
+                    <div class="btn">
                         <div class="actions">
-                            <button type="btn" class="btn btn-primary hamburger hamburger--spin"></button>
+                            <button type="btn" class="btn btn-primary hamburger hamburger--spin" data-toggle="sidebar">
+                                <span class="hamburger-box"></span>
+                                    <span class="hamburger-inner"></span>
+                                <span class="title"></span>
+                            </button>
                         </div>
                     </div>
+                    <div class="hidden-sm hidden-md hidden-lg search-form-wrapper--mobile">
+                        <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
+                            <label for="search-input" class="hidden">Search:</label>
+                            <input class="form-control search-bar" placeholder="Search..." id="search-input" name="keyword" type="text" value>
+                            <button type="submit" id="search-submit">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true">
+                            </button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        </div>
     </body>
 </html>
