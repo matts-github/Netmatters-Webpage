@@ -4,15 +4,13 @@
 div {
     display: block;
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.section {
+.container.section {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .service-list {
     margin-top: -30px;
@@ -21,8 +19,11 @@ div {
     margin-left: -15px;
     margin-right: -15px;
 }
-a {
-    cursor: pointer;
+.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 a {
     background: transparent;
@@ -32,16 +33,12 @@ a {
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 30px;
-    box-shadow: 0 3px 35px rgb(0, 0, 0 / 10%);
+    // box-shadow: 0 3px 35px rgb(0, 0, 0 / 10%);
 }
 .service-list .block {
     text-decoration: none;
     margin-top: 30px;
     text-align: center;
-}
-.cms-block a:not(.btn) {
-    font-weight: 600;
-    color: #333645;
 }
 .service-list .block>span {
     display: block;
@@ -53,19 +50,14 @@ a {
     color: #fff;
     border-radius: 50%;
 }
-.block.software>span.icon {
+.service-list .block.software>span.icon {
     background-color: #67809f;
 }
 .h2 {
     font-family: inherit;
     line-height: 1.1;
-}
-.h2 {
     font-weight: 400;
     color: #333645;
-}
-.service-list .block>span {
-    display: block;
 }
 .service-list .block>span.h2 {
     font-size: 1.125rem;
@@ -73,13 +65,26 @@ a {
     padding-bottom: 17px;
     margin: 0 0 11px;
 }
+#after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
 .service-list .block>span.p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400;
+    color: #333645;
 }
-btn {
+.btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
@@ -89,8 +94,6 @@ btn {
     background-image: none;
     border: 1px solid transparent;
     user-select: none;
-}
-btn {
     height: auto;
     line-height: 35px;
     padding: 5px 15px;
@@ -103,6 +106,18 @@ btn {
     color: #fff;
     background-color: #67809f;
     border-color: #67809f;
+}
+.service-list .block it{
+    text-decoration: none;
+    margin-top: 30px;
+    text-align: center;
+}
+.service-list .block>span.icon {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto 17px;
+    color: #fff;
+    border-radius: 50%;
 }
 .block.it>span.icon {
     background-color: #4183d7;
