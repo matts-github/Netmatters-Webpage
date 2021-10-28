@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-div {
-    display: block;
-}
 .cms-block .brand-background {
     background-color: $primaryColor;
     color: $formColor;
@@ -46,10 +40,10 @@ h1 {
     font-weight: 400;
     margin: 0 0 28px;
 }
-background h1 {
+.background h1 {
     text-transform: uppercase;
 }
-background h1 {
+.background h1 {
     margin-top: -6px;
 }
 p {
@@ -68,7 +62,7 @@ a {
 a {
     text-decoration: none;
 }
-btn {
+.btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
@@ -79,7 +73,7 @@ btn {
     border: 1px solid transparent;
     user-select: none;
 }
-btn {
+.btn {
     height: auto;
     line-height: 35px;
     padding: 5px 15px;

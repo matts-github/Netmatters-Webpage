@@ -1,9 +1,3 @@
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-} 
 .newsletter-full-width .sign-up {
     margin: 0;
     background-color: $newsletterBackground;
@@ -43,9 +37,7 @@ h2 {
 .form-group {
     margin-bottom: 15px;
 }
-div {
-    display: block;
-}
+
 label {
     font-weight: 600;
     color: $primaryColor;
