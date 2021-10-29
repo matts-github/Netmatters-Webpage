@@ -55,6 +55,8 @@ p {
 }
 p {
     margin: 0 0 10px;
+    line-height: 1.875rem;
+    margin-bottom: 25px;
 }
 a {
     background: transparent;
@@ -90,8 +92,15 @@ a {
 i {
     margin-left: 10px;
 }
+.case {
+    max-width: 605px;
+}
 .case p {
     color: #fff;
+}
+.case h1 {
+    color: #fff;
+    text-transform: uppercase;
 }
 img {
     max-width: 100%;

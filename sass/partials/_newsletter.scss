@@ -1,6 +1,6 @@
-.newsletter-full-width .sign-up {
+.newsletter-full-width {
     margin: 0;
-    background-color: $newsletterBackground;
+    background-color: #ddd;
 }
 .sign-up {
     padding: 50px 30px;
@@ -50,17 +50,99 @@ label {
     height: 47px;
     padding: 5px 15px;
     border-color: $formColor;
-}
-.form-control {
     width: 100%;
     background-color: $textColorFoot;
     background-image: none;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
-}
-.form-control {
     display: block;
     font-size: 14px;
     line-height: 1.42857143;
     color: #555;
+    margin: 0 0 15px;
+}
+input {
+    font: inherit;
+    margin: 0;
+}
+.btn-subscribe {
+    color: #fff;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    height: auto;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    white-space: normal;
+} 
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: $primaryColor;
+}
+label.pretty-checkbox {
+    line-height: 32px;
+    cursor: pointer;
+}
+.media {
+    zoom: 1;
+    overflow: hidden;
+}
+.media:first-child {
+    margin-top: 0;
+}
+.media-left {
+    display: table-cell;
+    vertical-align: top;
+}
+.padding-left {
+    padding-right: 0;
+}
+label.pretty-checkbox .button {
+    border-radius: 3px;
+    border: 3pxsolid #333645;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+[class^=mdi-] {
+    font-family: Material-Design-Icons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+label.pretty-checkbox .button span {
+    display: none;
+    line-height: 26px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+}
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 4px 0 0;
+    line-height: normal;
+}
+label.pretty-checkbox .button [type=checkbox] {
+    // display: none;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
 }

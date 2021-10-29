@@ -1,5 +1,7 @@
+// The News Section
+
 .latest-articles {
-    box-shadow: 0 5px 35px rgb(0, 0, 0 / 10%);
+    // box-shadow: 0 5px 35px rgb(0, 0, 0 / 10%);
 }
 .bar {
     box-shadow: 0 5px 35px rgb(0, 0, 0 / 10%);
@@ -15,7 +17,6 @@
     display: table;
 }
 ul {
-    // display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -33,7 +34,6 @@ ul {
 }
 li {
     display: list-item;
-    text-align: _webkit-match-parent;
 }
 .cms-block ul li {
     line-height: 24px;
@@ -47,7 +47,6 @@ li {
     clear: both;
 }
 .bar ul>li>span {
-    // display: block;
     padding: 40px 0;
     color: #333645;
     text-transform: uppercase;
@@ -130,7 +129,7 @@ img {
     vertical-align: middle;
 }
 .img-responsive {
-    // display: block;
+   
 }
 .cms-block img {
     max-width: 100%;
