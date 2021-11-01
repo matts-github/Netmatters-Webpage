@@ -1,27 +1,38 @@
 .newsletter-full-width {
-    margin: 0;
     background-color: #ddd;
 }
-.sign-up {
-    padding: 50px 30px;
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:before {
+    content: " ";
+    display: table;
 }
 form {
     display: block;
+    width: 75%;
 }
-h2 {
-    font-weight: 400;
-    margin: 0 0 15px;
-    color: $primaryColor;
+.sign-up {
+    padding: 50px 30px;
+    background-color: #ddd;
 }
-h2 {
-    font-size: 2rem;
-}
-h2 {
-    font-family: inherit;
-    line-height: 1.1;
+.newsletter-full-width .sign-up {
+    margin: 0;
 }
 h2 {
     display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 15px;
+    color: #333645;
 }
 .sign-up-inputs-wrapper {
     display: flex;
@@ -37,56 +48,51 @@ h2 {
 .form-group {
     margin-bottom: 15px;
 }
-
 label {
-    font-weight: 600;
-    color: $primaryColor;
-}
-label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
-.form-control {
-    height: 47px;
-    padding: 5px 15px;
-    border-color: $formColor;
-    width: 100%;
-    background-color: $textColorFoot;
-    background-image: none;
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    display: block;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    margin: 0 0 15px;
-}
-input {
-    font: inherit;
-    margin: 0;
-}
-.btn-subscribe {
-    color: #fff;
-    background-color: $primaryColor;
-    border-color: $primaryColor;
-    border: 1px solid transparent;
-    padding: 5px 15px;
-    height: auto;
-    line-height: 35px;
-    text-transform: uppercase;
-    font-size: 1.063rem;
-    border-radius: 3px;
-    white-space: normal;
-} 
-label {
+    cursor: default;
     display: inline-block;
     margin-bottom: 5px;
     font-weight: 600;
-    color: $primaryColor;
+    color: #333645;
 }
 label.pretty-checkbox {
     line-height: 32px;
     cursor: pointer;
+}
+label.required:after {
+    content: " *";
+    color: #d24d57;
+}
+input {
+    cursor: text;
+    -webkit-rtl-ordering: logical;
+    appearance: auto;
+    text-align: start;
+    text-shadow: none;
+    text-indent: 0px;
+    text-transform: none;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-rendering: auto;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+}
+.form-control {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    // box-shadow: inset 0 1px 1px rgb(0, 0, 0 / 8%);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 40px;
+    padding: 5px 15px;
+    border-color: #ddd ;
 }
 .media {
     zoom: 1;
@@ -99,12 +105,12 @@ label.pretty-checkbox {
     display: table-cell;
     vertical-align: top;
 }
-.padding-left {
+.checkbox {
     padding-right: 0;
 }
 label.pretty-checkbox .button {
     border-radius: 3px;
-    border: 3pxsolid #333645;
+    border: 3px solid #333645;
     height: 32px;
     width: 32px;
     position: relative;
@@ -119,7 +125,6 @@ label.pretty-checkbox .button {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 label.pretty-checkbox .button span {
     display: none;
@@ -128,21 +133,32 @@ label.pretty-checkbox .button span {
     font-size: 22px;
     border-radius: 50%;
 }
-input {
+label.pretty-checkbox.active .button span {
+    color: #fff;
+    display: block;
+}
+.media-body {
+    zoom: 1;
+    overflow: hidden;
+    width: 10000px;
+    display: table-cell;
+    vertical-align: top;
+}
+button {
     font-family: inherit;
-    font-size: inherit;
 }
-input[type=checkbox] {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 4px 0 0;
-    line-height: normal;
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
 }
-label.pretty-checkbox .button [type=checkbox] {
-    // display: none;
-}
-input[type="checkbox" i] {
-    background-color: initial;
-    cursor: default;
-    appearance: auto;
+.btn-primary {
+    color: #fff;
+    background-color: #333645;
+    border-color: #333645;
 }

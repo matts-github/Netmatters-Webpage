@@ -46,17 +46,19 @@ h1 {
 .background h1 {
     margin-top: -6px;
 }
-p {
+.case p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;;
-}
-p {
+    margin-inline-end: 0px;
     margin: 0 0 10px;
     line-height: 1.875rem;
     margin-bottom: 25px;
+    text-align: left;
+}
+p {
+   
 }
 a {
     background: transparent;
