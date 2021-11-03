@@ -6,7 +6,8 @@
 @import 'partials/netmatters-info';
 @import 'partials/container';
 @import 'partials/slider';
-
+@import 'partials/media';
+@import 'partials/hidden-nav-bar';
 
 html {
     -webkit-text-size-adjust: 100%;
@@ -44,4 +45,51 @@ body {
     height: 100%;
     overflow: auto;
 }
-
+@media screen and (min-width: 992px) {
+    // * {
+    //     background-color: #000;
+    //     border: 1px solid #red;
+    //     color: #green;
+    //  } 
+    .content-modern {
+        text-align: left;
+        float: left; 
+        margin: 0px 10px 10px 0;
+    }
+    // services cards
+    .container, .section, .row {
+        display: flex;
+    }
+    .container, .section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+    }
+    .block {
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 30px;
+        box-shadow: 0 3px 35px rgb(0, 0, 0 / 10%);
+    }
+    .service-list .block {
+        text-decoration: none;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .cms-block a:not(.btn) {
+        font-weight: 600;
+        color: #333645;
+    }
+    .col-md-4 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .item, .web {
+        flex-direction: row;
+    }
+}

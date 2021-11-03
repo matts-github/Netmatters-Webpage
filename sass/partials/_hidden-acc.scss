@@ -1,0 +1,44 @@
+.accreditations {
+    padding: 50px 0;
+    text-align: center;
+}
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .container:before {
+        content: " ";
+        display: table;
+    }
+    .accreditations .list .item {
+        flex-grow: 1;
+        vertical-align: middle;
+        padding: 0 20px;
+        position: relative;
+    }
+    #__partnersbadge_0 {
+        text-indent: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border-style: none;
+    float: none;
+    line-height: normal;
+    font-size: 1px;
+    vertical-align: baseline;
+    display: inline-block;
+    width: 220px;
+    height: 82px;
+}
+    #google {
+        position: static;
+    top: 0px;
+    width: 220px;
+    margin: 0px;
+    border-style: none;
+    left: 0px;
+    visibility: visible;
+    height: 82px;
+}
+    }
+}
