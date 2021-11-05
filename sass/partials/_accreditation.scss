@@ -158,16 +158,11 @@ img {
     border: 0;
     vertical-align: middle;
 }
-.img-responsive {
-   
-}
 .cms-block img {
     max-width: 100%;
 }
 .article-list .item .img-container .img img {
     transition: all .25s cubic-bezier(.215,.61,.255,1);
-}
-.article-list .item .img-container .img img {
     width: 100%;
     height: auto;
 }
@@ -273,19 +268,10 @@ h3 {
 }
 
 .cms-block img {
-    // max-width: 100%;
     height: auto;
-}
-
-.img-responsive {
-    // display: block;
-    // max-width: 100%;
-    // height: auto;
 }
 img {
     vertical-align: middle;
-}
-img {
     border: 0;
 }
 .user>.avatar img {
@@ -319,8 +305,6 @@ img {
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
-    }
-    .container {
         width: 750px;
     }
     .container:before {
@@ -349,8 +333,6 @@ img {
     }
     .col-sm-6 {
         float: left;
-    }
-    .col-sm-6 {
         width: 50%;
     }
     .article-list .item {
@@ -377,8 +359,6 @@ img {
         line-height: 1.438rem;
         text-transform: uppercase;
         z-index: 1;
-    }
-    .article-list .item.web .img-container .category {
         background-color: #926fb1;
     }
     .cms-block a:not(.btn) {
@@ -393,8 +373,6 @@ img {
     }
     img {
         border: 0;
-    }
-    img {
         vertical-align: middle;
     }
     .img-responsive {
@@ -405,8 +383,6 @@ img {
     }
     .article-list .item .img-container .img img {
         transition: all .25s cubic-bezier(.215,.61,.355,1);
-    }
-    .article-list .item .img-container .img img {
         width: 100%;
         height: auto;
     }
@@ -452,11 +428,7 @@ img {
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-    }
-    p {
         margin: 0 0 10px;
-    }
-    p {
         margin-bottom: 25px;
     }
     .article-list .item .block p {
@@ -481,8 +453,6 @@ img {
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-    }
-    .btn {
         height: auto;
         line-height: 35px;
         padding: 5px 15px;
@@ -582,13 +552,9 @@ img {
     }
 }
 @media screen and (min-width: 1260px) {
-    .container {
-        width: 1200px;
+    .acc-container {
         display: flex;
         flex-direction: row;
-    }
-    .col-lg-4 {
-        float: left;
-        width: 33.33333333;
+        flex-wrap: wrap;
     }
 }
