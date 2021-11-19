@@ -12,141 +12,350 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/1362e91b13.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1629a23b6c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
         <title>Netmatters</title>
     </head>
     <body>
         <div id="container">
             <div class="main">
-                <!-- <div class="main-outer">
-                    <div class="main-inner">
-                        <div class="page-parent">
-                            <div class="full-page">
-                                <div id="header">
-                                    <header>
-                                        <div class="inner">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
-                                                        <div class="logo-container">
-                                                            <a class="logo" href="#">
-                                                                <img src="img/logo.jpg" alt="A Logo">
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-3 hidden-sm hiden-md hidden-lg mobile-container">
-                                                        <a class="mobile" href="#"></a>
-                                                        <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8">
-                                                            <div class="actions">
-                                                                <button type="button" class="btn btn-primary hamburger hamburger-spin">
-                                                                    <span class="hamburger-box">
-                                                                        <span class="hamburger-inline"></span>
-                                                                    </span>
-                                                                    <span class="title">Menu</span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8"></div>
-                                                </div>
-                                                <div class="hidden-sm hidden-md hidden-lg search-form-wrapper-mobile">
-                                                    <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
-                                                        <label for="search-input" class="hidden">Search:</label>
-                                                        <input class="form-control search-bar" placeholder="Search..." id="search-input" name="keyword" type="text" value>
-                                                        <button type="submit" id="search-submit">
-                                                            <span class="glyphicon glyphicon-search" aria-hidden="true"> 
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </header> 
-                                    This section is hidden until over 992px -->
-                                    <div class="main-navigation hidden-xs hidden-sm">
-                                        <div class="container">
-                                            <ul class="hover">
-                                                <li data-key="web" class="web">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>Web</small>
-                                                        Design
-                                                    </a>
-                                                    <ul class role="menu">
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                        <li></li>
-                                                    </ul>
-                                                </li>
-                                                <li data-key="it" class="it">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>IT</small>
-                                                        Support
-                                                    </a>
-                                                </li>
-                                                <li data-key="telecoms" class="telecoms">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>Telecoms</small>
-                                                        Services
-                                                    </a>
-                                                </li>
-                                                <li data-key="software" class="software">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>Bespoke</small>
-                                                        Software
-                                                    </a>
-                                                </li>
-                                                <li data-key="digital" class="digital">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>Digital</small>
-                                                        Marketing
-                                                    </a>
-                                                </li>
-                                                <li data-key="security" class="security">
-                                                    <a href="#">
-                                                        <span class="icon-code"></span>
-                                                        <small>Cyber</small>
-                                                        Security
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
 
-                    <!-- Slider Section -->
-                    <div id="banner">
-                        <div class="sliding owl-carousel owl-theme owl-loaded">
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage">
-                                    <div class="owl-item cloned">
-                                        <div class="item">
-                                            <div class="img-cover-modern-container">
+                <div class="main-navigation hidden-xs hidden-sm">
+                    <div class="container">
+                        <ul class="hover">
+                            <li data-key="web" class="web">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>Web</small>
+                                    Design
+                                </a>
+                                <ul class role="menu">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li data-key="it" class="it">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>IT</small>
+                                    Support
+                                </a>
+                            </li>
+                            <li data-key="telecoms" class="telecoms">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>Telecoms</small>
+                                    Services
+                                </a>
+                            </li>
+                            <li data-key="software" class="software">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>Bespoke</small>
+                                    Software
+                                </a>
+                            </li>
+                            <li data-key="digital" class="digital">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>Digital</small>
+                                    Marketing
+                                </a>
+                            </li>
+                            <li data-key="security" class="security">
+                                <a href="#">
+                                    <span class="icon-code"></span>
+                                    <small>Cyber</small>
+                                    Security
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+<!-- Slider Section -->
+<div id="banner">
+    <div class="sliding owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+                <div class="owl-item cloned">
+                    <div class="item">
+                        <div class="img-cover-modern-container">
+                            <picture>
+                                <img class="size" src="img/pic.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="content-modern">
+                            <div class="container content-container">
+                                <div class="text">
+                                    <div class="h1">
+                                        Digital Marketing
+                                    </div>
+                                    <p>
+                                        Generating you new businesses through
+                                        <br>
+                                        results driven marketing activities.
+                                    </p>
+                                    <a href="#" class="btn btn-web btn-lg">
+                                        See How We Can Help You
+                                        <i class="pull-right icon-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Services card area --> 
+    <div class="middle">
+    <div class="container section">
+        <div class="cms-block" id="partial-79400">
+            <div class="service-list">
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                        <a href="#" class="block software">
+                            <span class="icon"></span>
+                            <span class="h2">
+                                Bespoke Software
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">
+                                Taylored software solitions to improve businesses
+                                productivity and online profits. Our expert team will
+                                ensure a software solution.
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-software">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="block it">
+                            <span class="icon">
+                                <span class="icon-display"></span>
+                            </span>
+                            <span class="h2">
+                                IT Support
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">Remotely managed IT services that is catered to your
+                                businesses needs, add value and reduces costs.
+                                <br class="visible-md">
+                                &nbsp;
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-it">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="block digital">
+                            <span class="icon">
+                                <span class="icon-bar-graph"></span>
+                            </span>
+                            <span class="h2">
+                                Digital Marketing
+                                <span id="after"></span>
+                            </span>
+                        
+                            <span class="p">
+                                Driving brand awareness and ROI through creative
+                                digital markteing campaignes. We review and monitor online
+                                performances.
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-digital">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="block telecoms">
+                            <span class="icon">
+                                <span class="icon-phone_in_talk"></span>
+                            </span>
+                            <span class="h2">
+                                Telecoms Services
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">
+                                Stay connected with bespoke telecoms solutions when you
+                                need it most.
+                                &nbsp;
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-telecoms">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="block web">
+                            <span class="icon">
+                                <span class="icon-code"></span>
+                            </span>
+                            <span class="h2">
+                                Web Design
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">
+                                User-centric design for businesses looking to make a 
+                                lasting impression.
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-web">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="block security">
+                            <span class="icon">
+                                <span class="icon-security"></span>
+                            </span>
+                            <span class="h2">
+                                Cyber Security
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">
+                                Ensuring your online business stays secure 24/7, 365
+                                days of the year.
+                                <br class="visible-sm">
+                                &nbsp; 
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-security">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="block web">
+                            <span class="icon">
+                                <span class="mdi-social-school"></span>
+                            </span>
+                            <span class="h2">
+                                Developer Training
+                                <span id="after"></span>
+                            </span>
+                            <span class="p">
+                                Have you considered a career in web development but you
+                                aren't sure where to start?
+                            </span>
+                            <span class="btn-container">
+                                <span class="btn btn-web">Read More</span>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <div></div>
+        <div>
+    <!-- netmatters-info -->
+    <div>
+        <div class="cms-block" id="partial-79403">
+            <div class="brand-background">
+                <div class="container section">
+                    <div class="row">
+                        
+                        <div class="case">
+                            <h1>Netmatters</h1>
+                            <p>
+                                <strong style="color: #ffffff">
+                                    Netmatters Ltd is a leading web design, IT support and
+                                    digital marketing agency based in the East of England 
+                                    with offices in Camberidge, Wymondham and Great Yarmouth.
+                                </strong>
+                            </p>
+                            <p>
+                                Founded in 2008, we work with businesses from a variety 
+                                of industries to gain new prospects, nurture existing 
+                                leads and further grow their sales.
+                            </p>
+                            <p> 
+                                We provide cost effective, reliable solutions to a range
+                                of services; from bespoke cloud-based management systems,
+                                workflow and IT solutions through to creative website
+                                development and integrated digital campaigning.
+                            </p>
+                            <div>
+                                <a href="#" class="btn btn-primary btn-inverse">
+                                    Our Culture
+                                    <em class="pull-right icon-arrow-right">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </em>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Acreditations area -->
+    <!-- Latest bar -->
+    <div class="acc-container">
+        <div class="cms-block" id="partial-79406">
+            <div class="latest-articles">
+                <div class="bar">
+                    <div class="container">
+                        <ul>
+                            <li class="active">
+                                <span>
+                                    Latest
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class="section">
+                    <div class="container">
+                        <div class="article-list"> 
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="item web">
+                                        <div class="img-container">
+                                            <a href="#" class="category btn-tooltip" title="View all: Web Design / Environmental News">
+                                            Environmental News</a>
+                                            <a class="img-bordered" href="#">
                                                 <picture>
-                                                    <img class="size" src="img/pic.jpg" alt="">
+                                                    <img src="img/gold.jpg" class="img-responsive" alt="Gold">
                                                 </picture>
-                                            </div>
-                                            <div class="content-modern">
-                                                <div class="container content-container">
-                                                    <div class="text">
-                                                        <div class="h1">
-                                                            Digital Marketing
-                                                        </div>
-                                                        <p>
-                                                            Generating you new businesses through
-                                                            <br>
-                                                            results driven marketing activities.
-                                                        </p>
-                                                        <a href="#" class="btn btn-web btn-lg">
-                                                            See How We Can Help You
-                                                            <i class="pull-right icon-arrow-right"></i>
-                                                        </a>
+                                            </a>
+                                        </div>
+                                        <div class="block">
+                                            <h3>
+                                                <a href="#">
+                                                    Netmatters Acheaves Gold Carbon Charter Award
+                                                </a>
+                                            </h3>
+                                            <p>
+                                                Almost two years ago to the day, we were
+                                                thrilled to recieve the Silver Carbon Charter
+                                                Award as host...
+                                            </p>
+                                            <a class="btn btn-web" href="#">Read More</a>
+                                            <div class="user">
+                                                <div class="avatar">
+                                                    <picture>
+                                                        <img src="img/icon.png" class="img-responsive" alt="icon">
+                                                    </picture>
+                                                </div>
+                                                <div class="details">
+                                                    <strong text-primary>Posted by Netmatters Ltd.</strong>
+                                                    <br>
+                                                    <div class="date">
+                                                    26th October 2021
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,187 +365,50 @@
                             </div>
                         </div>
                     </div>
-
-                       <!-- Services card area --> 
-                       <div class="middle">
-                        <div class="container section">
-                            <div class="cms-block" id="partial-79400">
-                                <div class="service-list">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            
-                                            <a href="#" class="block software">
-                                                <span class="icon"></span>
-                                                <span class="h2">
-                                                    Bespoke Software
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">
-                                                    Taylored software solitions to improve businesses
-                                                    productivity and online profits. Our expert team will
-                                                    ensure a software solution.
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-software">Read More</span>
-                                                </span>
+                </div>
+            </div>
+        </div>
+        <div class="cms-block" id="partial-79406">
+            <div class="latest-articles">
+                <div class="section">
+                    <div class="container">
+                        <div class="article-list"> 
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="item it">
+                                        <div class="img-container">
+                                            <a href="#" class="category btn-tooltip" title="View all: Web Design / News">
+                                            News</a>
+                                            <a class="img-bordered" href="#">
+                                                <picture>
+                                                    <img src="img/chris.jpg" class="img-responsive" alt="Gold">
+                                                </picture>
                                             </a>
                                         </div>
-                                        <div class="col-md-4">
-                                            <a href="#" class="block it">
-                                                <span class="icon">
-                                                    <span class="icon-display"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    IT Support
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">Remotely managed IT services that is catered to your
-                                                    businesses needs, add value and reduces costs.
-                                                    <br class="visible-md">
-                                                    &nbsp;
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-it">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <a href="#" class="block digital">
-                                                <span class="icon">
-                                                    <span class="icon-bar-graph"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    Digital Marketing
-                                                    <span id="after"></span>
-                                                </span>
-                                            
-                                                <span class="p">
-                                                    Driving brand awareness and ROI through creative
-                                                    digital markteing campaignes. We review and monitor online
-                                                    performances.
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-digital">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 col-sm-6">
-                                            <a href="#" class="block telecoms">
-                                                <span class="icon">
-                                                    <span class="icon-phone_in_talk"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    Telecoms Services
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">
-                                                    Stay connected with bespoke telecoms solutions when you
-                                                    need it most.
-                                                    &nbsp;
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-telecoms">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6">
-                                            <a href="#" class="block web">
-                                                <span class="icon">
-                                                    <span class="icon-code"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    Web Design
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">
-                                                    User-centric design for businesses looking to make a 
-                                                    lasting impression.
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-web">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6">
-                                            <a href="#" class="block security">
-                                                <span class="icon">
-                                                    <span class="icon-security"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    Cyber Security
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">
-                                                    Ensuring your online business stays secure 24/7, 365
-                                                    days of the year.
-                                                    <br class="visible-sm">
-                                                    &nbsp; 
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-security">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6">
-                                            <a href="#" class="block web">
-                                                <span class="icon">
-                                                    <span class="mdi-social-school"></span>
-                                                </span>
-                                                <span class="h2">
-                                                    Developer Training
-                                                    <span id="after"></span>
-                                                </span>
-                                                <span class="p">
-                                                    Have you considered a career in web development but you
-                                                    aren't sure where to start?
-                                                </span>
-                                                <span class="btn-container">
-                                                    <span class="btn btn-web">Read More</span>
-                                                </span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                            <div></div>
-                            <div>
-                        <!-- netmatters-info -->
-                        <div>
-                            <div class="cms-block" id="partial-79403">
-                                <div class="brand-background">
-                                    <div class="container section">
-                                        <div class="row">
-                                          
-                                            <div class="case">
-                                                <h1>Netmatters</h1>
-                                                <p>
-                                                    <strong style="color: #ffffff">
-                                                        Netmatters Ltd is a leading web design, IT support and
-                                                        digital marketing agency based in the East of England 
-                                                        with offices in Camberidge, Wymondham and Great Yarmouth.
-                                                    </strong>
-                                                </p>
-                                                <p>
-                                                    Founded in 2008, we work with businesses from a variety 
-                                                    of industries to gain new prospects, nurture existing 
-                                                    leads and further grow their sales.
-                                                </p>
-                                                <p> 
-                                                    We provide cost effective, reliable solutions to a range
-                                                    of services; from bespoke cloud-based management systems,
-                                                    workflow and IT solutions through to creative website
-                                                    development and integrated digital campaigning.
-                                                </p>
-                                                <div>
-                                                    <a href="#" class="btn btn-primary btn-inverse">
-                                                        Our Culture
-                                                        <em class="pull-right icon-arrow-right">
-                                                            <i class="fas fa-arrow-right"></i>
-                                                        </em>
-                                                    </a>
+                                        <div class="block">
+                                            <h3>
+                                                <a href="#">
+                                                    Netmatters Acheaves Gold Carbon Charter Award
+                                                </a>
+                                            </h3>
+                                            <p>
+                                                Almost two years ago to the day, we were
+                                                thrilled to recieve the Silver Carbon Charter
+                                                Award as host...
+                                            </p>
+                                            <a class="btn btn-it" href="#">Read More</a>
+                                            <div class="user">
+                                                <div class="avatar">
+                                                    <picture>
+                                                        <img src="img/icon.png" class="img-responsive" alt="icon">
+                                                    </picture>
+                                                </div>
+                                                <div class="details">
+                                                    <strong text-primary>Posted by Netmatters Ltd.</strong>
+                                                    <br>
+                                                    <div class="date">
+                                                    25th October 2021
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -344,66 +416,50 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Acreditations area -->
-                        <!-- Latest bar -->
-                        <div class="acc-container">
-                            <div class="cms-block" id="partial-79406">
-                                <div class="latest-articles">
-                                    <div class="bar">
-                                        <div class="container">
-                                            <ul>
-                                                <li class="active">
-                                                    <span>
-                                                        Latest
-                                                    </span>
-                                                </li>
-                                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cms-block" id="partial-79406">
+            <div class="latest-articles">
+                <div class="section">
+                    <div class="container">
+                        <div class="article-list"> 
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="item it">
+                                        <div class="img-container">
+                                            <a href="#" class="category btn-tooltip" title="View all: Web Design / Environmental News">
+                                            Environmental News</a>
+                                            <a class="img-bordered" href="#">
+                                                <picture>
+                                                    <img src="img/matt.jpg" class="img-responsive" alt="Gold">
+                                                </picture>
+                                            </a>
                                         </div>
-                                    </div>
-                                    <!-- cards -->
-                                    <div class="section">
-                                        <div class="container">
-                                            <div class="article-list"> 
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-sm-6">
-                                                        <div class="item web">
-                                                            <div class="img-container">
-                                                                <a href="#" class="category btn-tooltip" title="View all: Web Design / Environmental News">
-                                                                Environmental News</a>
-                                                                <a class="img-bordered" href="#">
-                                                                    <picture>
-                                                                        <img src="img/gold.jpg" class="img-responsive" alt="Gold">
-                                                                    </picture>
-                                                                </a>
-                                                            </div>
-                                                            <div class="block">
-                                                                <h3>
-                                                                    <a href="#">
-                                                                        Netmatters Acheaves Gold Carbon Charter Award
-                                                                    </a>
-                                                                </h3>
-                                                                <p>
-                                                                    Almost two years ago to the day, we were
-                                                                    thrilled to recieve the Silver Carbon Charter
-                                                                    Award as host...
-                                                                </p>
-                                                                <a class="btn btn-web" href="#">Read More</a>
-                                                                <div class="user">
-                                                                    <div class="avatar">
-                                                                        <picture>
-                                                                            <img src="img/icon.png" class="img-responsive" alt="icon">
-                                                                        </picture>
-                                                                    </div>
-                                                                    <div class="details">
-                                                                        <strong text-primary>Posted by Netmatters Ltd.</strong>
-                                                                        <br>
-                                                                        <div class="date">
-                                                                        26th October 2021
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                        <div class="block">
+                                            <h3>
+                                                <a href="#">
+                                                    Netmatters Acheaves Gold Carbon Charter Award
+                                                </a>
+                                            </h3>
+                                            <p>
+                                                Almost two years ago to the day, we were
+                                                thrilled to recieve the Silver Carbon Charter
+                                                Award as host...
+                                            </p>
+                                            <a class="btn btn-it" href="#">Read More</a>
+                                            <div class="user">
+                                                <div class="avatar">
+                                                    <picture>
+                                                        <img src="img/icon.png" class="img-responsive" alt="icon">
+                                                    </picture>
+                                                </div>
+                                                <div class="details">
+                                                    <strong text-primary>Posted by Netmatters Ltd.</strong>
+                                                    <br>
+                                                    <div class="date">
+                                                    22th October 2021
                                                     </div>
                                                 </div>
                                             </div>
@@ -411,162 +467,62 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="cms-block" id="partial-79406">
-                                <div class="latest-articles">
-                                    <div class="section">
-                                        <div class="container">
-                                            <div class="article-list"> 
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-sm-6">
-                                                        <div class="item it">
-                                                            <div class="img-container">
-                                                                <a href="#" class="category btn-tooltip" title="View all: Web Design / News">
-                                                                News</a>
-                                                                <a class="img-bordered" href="#">
-                                                                    <picture>
-                                                                        <img src="img/chris.jpg" class="img-responsive" alt="Gold">
-                                                                    </picture>
-                                                                </a>
-                                                            </div>
-                                                            <div class="block">
-                                                                <h3>
-                                                                    <a href="#">
-                                                                        Netmatters Acheaves Gold Carbon Charter Award
-                                                                    </a>
-                                                                </h3>
-                                                                <p>
-                                                                    Almost two years ago to the day, we were
-                                                                    thrilled to recieve the Silver Carbon Charter
-                                                                    Award as host...
-                                                                </p>
-                                                                <a class="btn btn-it" href="#">Read More</a>
-                                                                <div class="user">
-                                                                    <div class="avatar">
-                                                                        <picture>
-                                                                            <img src="img/icon.png" class="img-responsive" alt="icon">
-                                                                        </picture>
-                                                                    </div>
-                                                                    <div class="details">
-                                                                        <strong text-primary>Posted by Netmatters Ltd.</strong>
-                                                                        <br>
-                                                                        <div class="date">
-                                                                        25th October 2021
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Accerditaitons area end -->
+        
+        
+        <!-- Netmatters-info -->
+        <div class="newsletter-full-width">
+            <div class="container">
+                <form method="POST" action="#" accept-charset="UTF-8" id="sign-up" class="sign-up">
+                    <input name="_token" type="hidden" value="#">
+                    <input name="return_url" type="hidden" value="#">
+                    <h2>Email Newsletter Sign-Up</h2>
+                    <div class="sign-up-inputs-wrapper">
+                        <div class="sign-up-input">
+                            <div class="form-group">
+                                <label for="newsletter-name" class="required">
+                                    Your Name
+                                </label>
+                                <input class="form-control" id="newsletter-name" name="name" type="text"
+                                value>
                             </div>
-                            <div class="cms-block" id="partial-79406">
-                                <div class="latest-articles">
-                                    <div class="section">
-                                        <div class="container">
-                                            <div class="article-list"> 
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-sm-6">
-                                                        <div class="item it">
-                                                            <div class="img-container">
-                                                                <a href="#" class="category btn-tooltip" title="View all: Web Design / Environmental News">
-                                                                Environmental News</a>
-                                                                <a class="img-bordered" href="#">
-                                                                    <picture>
-                                                                        <img src="img/matt.jpg" class="img-responsive" alt="Gold">
-                                                                    </picture>
-                                                                </a>
-                                                            </div>
-                                                            <div class="block">
-                                                                <h3>
-                                                                    <a href="#">
-                                                                        Netmatters Acheaves Gold Carbon Charter Award
-                                                                    </a>
-                                                                </h3>
-                                                                <p>
-                                                                    Almost two years ago to the day, we were
-                                                                    thrilled to recieve the Silver Carbon Charter
-                                                                    Award as host...
-                                                                </p>
-                                                                <a class="btn btn-it" href="#">Read More</a>
-                                                                <div class="user">
-                                                                    <div class="avatar">
-                                                                        <picture>
-                                                                            <img src="img/icon.png" class="img-responsive" alt="icon">
-                                                                        </picture>
-                                                                    </div>
-                                                                    <div class="details">
-                                                                        <strong text-primary>Posted by Netmatters Ltd.</strong>
-                                                                        <br>
-                                                                        <div class="date">
-                                                                        22th October 2021
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="sign-up-input">
+                            <div class="form-group">
+                                <label for="newsletter-email" class="required">
+                                    Your Email
+                                </label>
+                                <input class="form-control" type="newsletter-email" name="email" type="email" value>
                             </div>
-                        </div>    
-                        <!-- Accerditaitons area end -->
-                            
-                         
-                         <!-- Netmatters-info -->
-                            <div class="newsletter-full-width">
-                                <div class="container">
-                                    <form method="POST" action="#" accept-charset="UTF-8" id="sign-up" class="sign-up">
-                                        <input name="_token" type="hidden" value="#">
-                                        <input name="return_url" type="hidden" value="#">
-                                        <h2>Email Newsletter Sign-Up</h2>
-                                        <div class="sign-up-inputs-wrapper">
-                                            <div class="sign-up-input">
-                                                <div class="form-group">
-                                                    <label for="newsletter-name" class="required">
-                                                        Your Name
-                                                    </label>
-                                                    <input class="form-control" id="newsletter-name" name="name" type="text"
-                                                    value>
-                                                </div>
-                                            </div>
-                                            <div class="sign-up-input">
-                                                <div class="form-group">
-                                                    <label for="newsletter-email" class="required">
-                                                        Your Email
-                                                    </label>
-                                                    <input class="form-control" type="newsletter-email" name="email" type="email" value>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="pretty-checkbox">
-                                                <span class="media">
-                                                    <span class="media-left checkbox-left">
-                                                        <span class="button">
-                                                            <span class="mdi-action-done"></span>
-                                                        </span>
-                                                    </span>
-                                                    <span class="media-body">
-                                                        Please tick this box if you wish to recieve marketing information
-                                                        from us. Please see our
-                                                        <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a> 
-                                                        for more information on how we use your data.
-                                                    </span>
-                                                </span>
-                                            </label>
-                                        </div>
-                                        <button name="submit" class="btn btn-primary"> Subscribe </button>
-                                    </form>
-                                </div>
-                            </div>
-       
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="pretty-checkbox">
+                            <span class="media">
+                                <span class="media-left checkbox-left">
+                                    <span class="button">
+                                        <span class="mdi-action-done"></span>
+                                    </span>
+                                </span>
+                                <span class="media-body">
+                                    Please tick this box if you wish to recieve marketing information
+                                    from us. Please see our
+                                    <a href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a> 
+                                    for more information on how we use your data.
+                                </span>
+                            </span>
+                        </label>
+                    </div>
+                    <button name="submit" class="btn btn-primary"> Subscribe </button>
+                </form>
+            </div>
+        </div>
                 <!-- Footer  -->
                 <footer>
                     <div class="container">
