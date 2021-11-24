@@ -62,6 +62,11 @@ footer .footer-row .services .office {
     width: 225px;
     margin-bottom: 30px;
 }
+.btn:hover {
+    color: #fff;
+    background-color: #22242e;
+    border-color: #191a22;
+}
 footer h4 {
     font-size: 1rem;
     text-transform: uppercase;
@@ -134,6 +139,19 @@ footer ul li {
 .social-media >* {
     margin: 5px;
 }
+footer .bottom .social-media a .facebook {
+    
+}
+footer .bottom  .social-media a.facebook:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    max-height: 38px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 10px 10px;
+}
 .footer .bottom .social-media a {
     display: block;
     color: #fff;
@@ -145,6 +163,8 @@ footer ul li {
 }
 a {
     background: transparent;
+    text-decoration: underline;
+    color: #000;
 }
 @media screen and (min-width: 768px) {
     * {
