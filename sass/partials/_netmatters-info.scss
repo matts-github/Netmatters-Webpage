@@ -10,7 +10,7 @@
 }
 .section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .row {
     margin-left: -15px;
@@ -50,10 +50,11 @@ h1 {
     line-height: 1.875rem;
     margin-bottom: 25px;
     text-align: left;
+    font-size: 1rem;
 }
 a {
     background: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .btn {
     display: inline-block;
@@ -79,7 +80,8 @@ a {
     border-color: $textColorFoot;
 }
 .btn.btn-primary.btn-inverse:hover {
-    background-color: #999aa2;
+    background-color: #e0e0e0;
+    border-color: none;
 }
 i {
     margin-left: 10px;

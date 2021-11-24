@@ -1,4 +1,5 @@
-// The Accreditations Section
+// The Accreditations Section 
+//News
 .bar {
     box-shadow: 0 5px 35px rgb(0, 0, 0 / 10%);
 }
@@ -79,8 +80,13 @@ li {
 .col-md-4 .software:hover {
     background-color: #67809f;
 }
+.col-md-4 .software:hover .icon {
+    color: #fff;
+}
+.col-md-4 .software:hover
+
 .col-md-4 .it:hover {
-    background-color: #286abd;
+    background-color: #4183d7;
 }
 .col-md-4 .digital:hover {
     background-color: #2ecc71;
@@ -89,7 +95,7 @@ li {
     background-color: #d64541;
 }
 .col-sm-6 .web:hover {
-    background-color: #79539a;
+    background-color: #926fb1;
 }
 .col-sm-6 .security:hover {
     background-color: #f62459;
@@ -97,7 +103,11 @@ li {
 .col-sm-6 .security:hover {
     background-color: #926fb1;
 }
-.service-list .block.software>span.icon:hover {
+.service-list .block:hover {
+    color: #fff;
+    border-color: transparent;
+}
+.service-list .block.software:hover>span.icon {
     background-color: #fff;
 }
 .service-list .block.it>span.icon:hover {
@@ -149,6 +159,9 @@ a {
     text-transform: uppercase;
     z-index: 1;
     background-color: #926fb1;
+}
+.article-list .item .img-container .category:hover {
+    text-decoration: underline;
 }
 img {
     border: 0;
@@ -207,6 +220,8 @@ h3 {
 .article-list .item .block p {
     line-height: 1.375rem;
     font-size: .8125rem;
+    color: #333645;
+    text-align: left;
 }
 .btn {
     margin-bottom: 0;
@@ -265,6 +280,7 @@ h3 {
 
 .cms-block img {
     height: auto;
+    width: 100%;
 }
 img {
     vertical-align: middle;
@@ -284,7 +300,9 @@ img {
 .article-list .item.it .img-container .category {
     background-color: #4183d7;
 }
-
+.article-list .item.it .img-container .category:hover {
+    text-decoration: underline;
+}
 @media screen and (min-width: 768px) {
     * {
         box-sizing: border-box;
@@ -430,6 +448,7 @@ img {
     .article-list .item .block p {
         line-height: 1.375rem;
         font-size: .8125rem;
+        color: #000;
     }
     .btn {
         display: inline-block;
