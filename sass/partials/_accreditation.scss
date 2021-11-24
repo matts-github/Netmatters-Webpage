@@ -107,9 +107,39 @@ li {
     color: #fff;
     border-color: transparent;
 }
+// Inside of box hover styles
 .service-list .block.software:hover>span.icon {
     background-color: #fff;
 }
+.service-list .block.software:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block.software:hover>span.p {
+    color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    color: #67809f;
+}
+// Next Box
+.service-list .block.it:hover>span.icon {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block.software:hover>span.p {
+    color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    background-color: #fff;
+}
+.service-list .block.software:hover>span.btn-container .btn.btn-software {
+    color: #67809f;
+}
+
 .service-list .block.it>span.icon:hover {
     background-color: #fff;
 }
