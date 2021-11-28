@@ -3,12 +3,6 @@
 .bar {
     box-shadow: 0 5px 35px rgb(0, 0, 0 / 10%);
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .container:before {
     content: " ";
     display: table;
@@ -64,12 +58,6 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .container:before {
     content: " ";
     display: table;
@@ -91,6 +79,9 @@ li {
 .col-md-4 .digital:hover {
     background-color: #2ecc71;
 }
+.col-md-4 .digital:hover {
+    color: #fff;
+}
 .col-sm-6 .telecoms:hover {
     background-color: #d64541;
 }
@@ -107,7 +98,7 @@ li {
     color: #fff;
     border-color: transparent;
 }
-// Inside of box hover styles
+// Inside of box 1 hover styles
 .service-list .block.software:hover>span.icon {
     background-color: #fff;
 }
@@ -123,8 +114,9 @@ li {
 .service-list .block.software:hover>span.btn-container .btn.btn-software {
     color: #67809f;
 }
-// Next Box
-.service-list .block.it:hover>span.icon {
+// End of inside of box 1 hover styles
+// Box 3
+.digital:hover>span .icon {
     background-color: #fff;
 }
 .service-list .block.software:hover>span.h2 {
@@ -345,15 +337,7 @@ img {
         padding-bottom: 50px;
     }
     .container {
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 15px;
-        padding-right: 15px;
         width: 750px;
-    }
-    .container:before {
-        content: " ";
-        display: table;
     }
     .article-list {
         overflow: hidden;
@@ -549,20 +533,10 @@ img {
     div {
         display: block;
     }
-    .container {
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        width: 970px;
-    }
+
     .section {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
-    .container:before {
-        content: " ";
-        display: table;
     }
     .service-list {
         margin-top: -30px;
@@ -596,10 +570,21 @@ img {
         text-align: center;
     }
 }
+@media screen and (min-width: 768px) {}
+.container {
+    width: 750px;
+}
 @media screen and (min-width: 1260px) {
     .acc-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
 }

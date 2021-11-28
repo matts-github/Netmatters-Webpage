@@ -1,0 +1,154 @@
+header {
+    background-color: #fff;
+}
+header .inner {
+    padding: 20px 0;
+}
+header .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+header .inner .row {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+header .inner .row>* {
+    padding: 0;
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    width: 100%;
+}
+header .inner .row {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+header .inner .row>* {
+    padding: 0;
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    width: 100%;
+}
+header .inner .row {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+.col-lg-4, .col-md-5, .col-sm-6, .col-xs-6 {
+    position: relative;
+    min-height: 1px;
+}
+a {
+    background: transparent;
+    color: #333645;
+    text-decoration: none;
+} 
+header img {
+    height: 100%;
+    border: 0;
+    vertical-align: middle;
+}
+header .inner .logo img {
+    max-width: 100%;
+    display: block;
+}
+@media screen and (max-width: 767px) {
+    header .inner .row>* {
+        padding: 0;
+        display: table-cell;
+        float: none;
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    header .inner .logo-container {
+        display: table;
+        table-layout: fixed;
+    }
+    header .inner .logo-container .logo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+// Updates go here
+.mobile-container .icon-phone_in_talk {
+    font-size: 32px;
+    margin-left: 15px;
+}
+header .inner .row>:last-child {
+    width: 1%;
+}
+header .inner .actions {
+    float: right;
+    padding: 7px 0;
+}
+header .search-form-wrapper--mobile>.search-form {
+    margin-top: 11px;
+    position: relative;
+    width: 100%;
+}
+label {
+    font-weight: 600;
+    color: #333645;
+}
+.hidden {
+    display: none!important;
+    visibility: hidden!important;
+}
+header .search-form-wrapper--mobile>.search-form>.form-control {
+    background-color: rgba(0,0,0,.1);
+    outline: 1px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(0,0,0,.1);
+    transition: none;
+    width: 100%;
+    padding-right: 40px;
+}
+header .search-form-wrapper--mobile>.search-form button {
+    background: none;
+    border: none;
+    color: #333645;
+    position: absolute;
+    right: 5px;
+    line-height: 47px;
+    font-size: 20px;
+    outline: none;
+}
+.search-form .form-control {
+    width: calc(100% - 54px);
+    display: inline-block;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: Glyphicons Halflings;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fas .fa-search {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    position: relative;
+    top: -50px;
+    right: -50px;
+}
+.form-control {
+    height: 47px;
+    padding: 5px 15px;
+    border-color: #ccc;
+}

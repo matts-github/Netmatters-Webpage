@@ -2,12 +2,6 @@
     background-color: $primaryColor;
     color: $formColor;
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .section {
     padding-top: 50px;
     padding-bottom: 0px;
@@ -83,9 +77,6 @@ a {
     background-color: #e0e0e0;
     border-color: none;
 }
-i {
-    margin-left: 10px;
-}
 .case {
     max-width: 605px;
 }
@@ -109,7 +100,7 @@ img {
         padding-right: 15px;
     }
     .container {
-        width: 970px;
+        // width: 970px;
     }
     .sign-up-input {
         flex: 1 1 450px;

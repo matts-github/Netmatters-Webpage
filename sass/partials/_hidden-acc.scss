@@ -4,11 +4,7 @@
 }
 @media screen and (min-width: 992px) {
     .container {
-        width: 970px;
-    }
-    .container:before {
-        content: " ";
-        display: table;
+        // width: 970px;
     }
     .accreditations .list .item {
         flex-grow: 1;

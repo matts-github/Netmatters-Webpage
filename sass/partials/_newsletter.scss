@@ -1,12 +1,6 @@
 .newsletter-full-width {
     background-color: #ddd;
 }
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .container:before {
     content: " ";
     display: table;
@@ -21,6 +15,7 @@ form {
 }
 .newsletter-full-width .sign-up {
     margin: 0;
+    width: 100%;
 }
 h2 {
     display: block;
@@ -44,6 +39,15 @@ h2 {
     flex: 1 1 450px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.sign-up {
+    padding: 50px 30px;
+    background-color: #ddd;
+}
+input {
+    color: inherit;
+    font: inherit;
+    margin: 0;
 }
 .form-group {
     margin-bottom: 15px;
@@ -104,17 +108,11 @@ input {
     display: table-cell;
     vertical-align: top;
 }
-.checkbox {
+.checkbox-left {
     padding-right: 0;
 }
-label.pretty-checkbox .button {
-    border-radius: 3px;
-    border: 3px solid #333645;
-    height: 32px;
-    width: 32px;
-    position: relative;
-    float: left;
-    margin-right: 20px;
+.checkbox {
+    padding-right: 0;
 }
 [class^=mdi-] {
     font-family: Material-Design-Icons;
@@ -125,12 +123,24 @@ label.pretty-checkbox .button {
     text-transform: none;
     -webkit-font-smoothing: antialiased;
 }
+label.pretty-checkbox .button {
+    border-radius: 3px;
+    border: 3px solid #333645;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
 label.pretty-checkbox .button span {
     display: none;
     line-height: 26px;
     text-align: center;
     font-size: 22px;
     border-radius: 50%;
+}
+label.pretty-checkbox.active .button {
+    background-color: #333645;
 }
 label.pretty-checkbox.active .button span {
     color: #fff;
@@ -160,4 +170,9 @@ button {
     color: #fff;
     background-color: #333645;
     border-color: #333645;
+}
+@media screen and (min-width: 1260px) {
+    .container {
+        width: 1200px;
+    }
 }

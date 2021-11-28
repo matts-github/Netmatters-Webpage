@@ -19,63 +19,104 @@
     <body>
         <div id="container">
             <div class="main">
-
-                <div class="main-navigation hidden-xs hidden-sm">
-                    <div class="container">
-                        <ul class="hover">
-                            <li data-key="web" class="web">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>Web</small>
-                                    Design
-                                </a>
-                                <ul class role="menu">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </li>
-                            <li data-key="it" class="it">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>IT</small>
-                                    Support
-                                </a>
-                            </li>
-                            <li data-key="telecoms" class="telecoms">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>Telecoms</small>
-                                    Services
-                                </a>
-                            </li>
-                            <li data-key="software" class="software">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>Bespoke</small>
-                                    Software
-                                </a>
-                            </li>
-                            <li data-key="digital" class="digital">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>Digital</small>
-                                    Marketing
-                                </a>
-                            </li>
-                            <li data-key="security" class="security">
-                                <a href="#">
-                                    <span class="icon-code"></span>
-                                    <small>Cyber</small>
-                                    Security
-                                </a>
-                            </li>
-                        </ul>
+                <!-- Header section -->
+                <header>
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                                    <div class="logo-container">
+                                        <a class="logo" href="#">
+                                            <img src="img/logo.jpg" alt="netmatters">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 hidden-sm hidden-md hidden-lg mobile-container">
+                                    <a class="mobile" href="#">
+                                        <span class="icon-phone_in_talk">
+                                            <i class="fas fa-phone"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8">
+                                    <div class="actions">
+                                        <a href="#">
+                                            <i class="fas fa-bars fa-2x"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hidden-sm hidden-md hidden-lg search-form-wrapper--mobile">
+                                <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
+                                    <label for="search-input" class="hidden">Search:</label>
+                                    <input class="form-control search-bar" placeholder="Serach..." id="search-input" name="keyword" type="text" value>
+                                    <button type="submit" id="search-submit">
+                                        <span class="glyphicon glyphicon-search" area-hidden = "true">
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>  
+                </header>
+                <!-- Header section end -->
+                    <div class="main-navigation hidden-xs hidden-sm">
+                        <div class="container">
+                            <ul class="hover">
+                                <li data-key="web" class="web">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>Web</small>
+                                        Design
+                                    </a>
+                                    <ul class role="menu">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </li>
+                                <li data-key="it" class="it">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>IT</small>
+                                        Support
+                                    </a>
+                                </li>
+                                <li data-key="telecoms" class="telecoms">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>Telecoms</small>
+                                        Services
+                                    </a>
+                                </li>
+                                <li data-key="software" class="software">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>Bespoke</small>
+                                        Software
+                                    </a>
+                                </li>
+                                <li data-key="digital" class="digital">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>Digital</small>
+                                        Marketing
+                                    </a>
+                                </li>
+                                <li data-key="security" class="security">
+                                    <a href="#">
+                                        <span class="icon-code"></span>
+                                        <small>Cyber</small>
+                                        Security
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
 <!-- Slider Section -->
 <div id="banner">
@@ -509,6 +550,7 @@
                                 <span class="media-left checkbox-left">
                                     <span class="button">
                                         <span class="mdi-action-done"></span>
+                                        <input class="checkbox" name="marketing-prefernce" type="checkbox" value="1">
                                     </span>
                                 </span>
                                 <span class="media-body">
@@ -637,15 +679,11 @@
                             </div>
                             <div class="bottom">
                                 <div class="license">
-                                    &copy; Copyright 
-                                    <br>
-                                    Netmatters Ltd. 
-                                    <br>
-                                    2021.
-                                    <br>
+                                    &copy; Copyright Netmatters Ltd. 2021.
+                                    <br class="visible-xs">
                                     All rights reserved. 
-                                    <span class="line">-</span>
-                                    <ul class="sitemap">
+                                    <span>-</span>
+                                    <ul>
                                         <li class=" ">
                                             <a href="#">Sitemap</a>
                                         </li>
