@@ -337,7 +337,7 @@ img {
         padding-bottom: 50px;
     }
     .container {
-        width: 750px;
+        // width: 750px;
     }
     .article-list {
         overflow: hidden;
@@ -572,19 +572,19 @@ img {
 }
 @media screen and (min-width: 768px) {}
 .container {
-    width: 750px;
+    // width: 750px;
 }
 @media screen and (min-width: 1260px) {
-    .acc-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    // .acc-container {
+    //     display: flex;
+    //     flex-direction: row;
+    //     flex-wrap: wrap;
+    // }
 }
 .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
+    // margin-right: auto;
+    // margin-left: auto;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    // width: 100%;
 }
