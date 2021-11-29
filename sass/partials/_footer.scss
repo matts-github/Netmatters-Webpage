@@ -14,9 +14,7 @@
         // color: #fff;
         // padding: 47px 0 43px;
     }
-    .container {
-        width: 1200px;
-    }
+
     footer .footer-row {
         // flex-wrap: wrap;
         // display: flex;
@@ -447,9 +445,9 @@ footer .footer-row .offices {
     }
 }
 @media screen and (min-width: 992px) {
-    // .container {
-    //     width: 970px;
-    // }
+    .container {
+        width: 970px;
+    }
 }
 @media screen and (max-width: 767px) {
     .visible-xs {

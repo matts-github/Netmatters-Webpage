@@ -7,15 +7,17 @@
 }
 form {
     display: block;
-    width: 75%;
+    // width: 75%;
 }
 .sign-up {
+    margin: 30px auto 15px;
     padding: 50px 30px;
+}
+.newsletter-full-width, .sign-up {
     background-color: #ddd;
 }
 .newsletter-full-width .sign-up {
     margin: 0;
-    width: 100%;
 }
 h2 {
     display: block;
@@ -40,10 +42,6 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
 }
-.sign-up {
-    padding: 50px 30px;
-    background-color: #ddd;
-}
 input {
     color: inherit;
     font: inherit;
@@ -53,11 +51,10 @@ input {
     margin-bottom: 15px;
 }
 label {
-    cursor: default;
+    // cursor: default;
     display: inline-block;
     margin-bottom: 5px;
-    font-weight: 600;
-    color: #333645;
+    font-weight: 700;
 }
 label.pretty-checkbox {
     line-height: 32px;
@@ -97,14 +94,20 @@ input {
     padding: 5px 15px;
     border-color: #ddd ;
 }
+.media-left, .media>.pull-left {
+    padding-right: 10px;
+}
 .media {
+    margin-top: 15px;
+}
+.media, .media-body {
     zoom: 1;
     overflow: hidden;
 }
 .media:first-child {
     margin-top: 0;
 }
-.media-left {
+.media-body, .media-left {
     display: table-cell;
     vertical-align: top;
 }
@@ -114,7 +117,7 @@ input {
 .checkbox {
     padding-right: 0;
 }
-[class^=mdi-] {
+[class*=" mdi-"], [class^=mdi-] {
     font-family: Material-Design-Icons;
     speak: none;
     font-style: normal;
@@ -122,6 +125,7 @@ input {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 label.pretty-checkbox .button {
     border-radius: 3px;
@@ -132,7 +136,7 @@ label.pretty-checkbox .button {
     float: left;
     margin-right: 20px;
 }
-label.pretty-checkbox .button span {
+label.pretty-checkbox .button i, label.pretty-checkbox .button span {
     display: none;
     line-height: 26px;
     text-align: center;
@@ -170,6 +174,23 @@ button {
     color: #fff;
     background-color: #333645;
     border-color: #333645;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+label.pretty-checkbox .button [type=checkbox] {
+    display: none;
 }
 @media screen and (min-width: 1260px) {
     .container {
