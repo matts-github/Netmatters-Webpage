@@ -146,10 +146,10 @@ footer {
         padding: 0;
         margin: 0;
     }
-    li {
-        font-size: .8125rem;
-        line-height: 1.375rem;
-    }
+    // li {
+    //     font-size: .8125rem;
+    //     line-height: 1.375rem;
+    // }
     a {
         color: $textColorFoot;
         text-decoration: none;
@@ -219,22 +219,22 @@ footer .bottom .licence span {
 footer .bottom .licence ul {
     margin-top: -2;
 }
-ul {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+// ul {
+//     margin-block-start: 1em;
+//     margin-block-end: 1em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//     padding-inline-start: 40px;
+// }
 footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-li {
-    display: list-item;
-    top: 10px;
-}
+// li {
+//     display: list-item;
+//     top: 10px;
+// }
 footer ul li {
     font-size: .8125rem;
     line-height: 1.375rem;

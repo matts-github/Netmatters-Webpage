@@ -1,14 +1,4 @@
 // Services card section
-
-.container.section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-}
 .service-list {
     margin-top: -30px;
 }
@@ -16,12 +6,12 @@
     // margin-left: -15px;
     // margin-right: -15px;
 }
-.col-md-4 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+// .col-md-4 {
+//     position: relative;
+//     min-height: 1px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+// }
 a {
     // background: transparent;
 }
@@ -163,19 +153,19 @@ a {
 .block.web>span.icon {
     background-color: #926fb1;
 }
-ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-.bar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+// ul {
+//     display: block;
+//     margin-block-start: 1em;
+//     margin-block-end: 1em;
+//     margin-inline-start: 0px;
+//     margin-inline-end: 0px;
+//     padding-inline-start: 40px;
+// }
+// .bar ul {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+// }
 .container:after {
     clear: both;
 }
@@ -188,20 +178,20 @@ ul {
     display: table;
     clear: both;
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.cms-block ul li {
-    line-height: 24px;
-}
+// li {
+//     display: list-item;
+//     text-align: -webkit-match-parent;
+// }
+// .cms-block ul li {
+//     line-height: 24px;
+// }
 .bar ul>li {
     float: left;
     padding: 0;
 }
 .bar ul>li>span {
     display: block;
-    padding: 40px0;
+    padding: 40px 0;
     color: #333645;
     text-transform: uppercase;
     font-size: 1.25rem;
@@ -228,8 +218,8 @@ li {
     //     box-sizing: border-box;
     // }
     .section {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        // padding-top: 50px;
+        // padding-bottom: 50px;
     }
     .service-list {
         margin-top: -30px;
