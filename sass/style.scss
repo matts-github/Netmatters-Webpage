@@ -617,9 +617,6 @@ img {
     .main-navigation .container>ul>li.web>a span {
         color: #926fb1;
     }
-    .icon-code:before {
-        content: "\E908";
-    }
     .main-navigation .container>ul>li>a small {
         display: block;
         font-size: .625rem;
@@ -752,6 +749,9 @@ img {
         display: inline-block!important;
         border-radius: 0;
         width: 240px;
+    } 
+    .case1 {
+        max-width: 1060px;
     }
 }
 .service-list .block>span.icon {
