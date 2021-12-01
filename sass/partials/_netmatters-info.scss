@@ -46,24 +46,24 @@ a {
     // background: transparent;
     // text-decoration: underline;
 }
-.btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    user-select: none;
-    height: auto;
-    line-height: 35px;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    font-size: 1.036rem;
-    border-radius: 3px;
-    white-space: normal;
-}
+// .btn {
+//     display: inline-block;
+//     margin-bottom: 0;
+//     font-weight: 400;
+//     text-align: center;
+//     vertical-align: middle;
+//     cursor: pointer;
+//     background-image: none;
+//     border: 1px solid transparent;
+//     user-select: none;
+//     height: auto;
+//     line-height: 35px;
+//     padding: 5px 15px;
+//     text-transform: uppercase;
+//     font-size: 1.036rem;
+//     border-radius: 3px;
+//     white-space: normal;
+// }
 .btn.btn-primary.btn-inverse {
     color: $primaryColor;
     background-color: $textColorFoot;

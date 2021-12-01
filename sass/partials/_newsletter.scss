@@ -79,21 +79,21 @@ input {
     margin: 0;
     font-family: inherit;
 }
-.form-control {
-    display: block;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    width: 100%;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #e5e5e5;
-    border-radius: 2px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    height: 40px;
-    padding: 5px 15px;
-    border-color: #ddd ;
-}
+// .form-control {
+//     display: block;
+//     font-size: 14px;
+//     line-height: 1.42857143;
+//     color: #555;
+//     width: 100%;
+//     background-color: #fff;
+//     background-image: none;
+//     border: 1px solid #e5e5e5;
+//     border-radius: 2px;
+//     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+//     height: 40px;
+//     padding: 5px 15px;
+//     border-color: #ddd ;
+// }
 .media-left, .media>.pull-left {
     padding-right: 10px;
 }
@@ -160,26 +160,26 @@ label.pretty-checkbox.active .button span {
 button {
     font-family: inherit;
 }
-.btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-}
+// .btn {
+//     display: inline-block;
+//     margin-bottom: 0;
+//     font-weight: 400;
+//     text-align: center;
+//     vertical-align: middle;
+//     cursor: pointer;
+//     background-image: none;
+//     border: 1px solid transparent;
+// }
 .btn-primary {
     color: #fff;
     background-color: #333645;
     border-color: #333645;
 }
-button, input, select, textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
+// button, input, select, textarea {
+//     font-family: inherit;
+//     font-size: inherit;
+//     line-height: inherit;
+// }
 input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
     padding: 0;

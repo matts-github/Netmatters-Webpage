@@ -1,6 +1,11 @@
 header {
     background-color: #fff;
 }
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
 .pull-left {
     float: left!important;
 }
@@ -128,23 +133,6 @@ header .search-form-wrapper--tablet>.search-form button {
 header .search-form-wrapper--tablet>.search-form button .glyphicon {
     font-size: 23px;
 }
-.hamburger {
-    padding: 15px;
-    display: inline-block;
-    cursor: pointer;
-    transition-property: opacity,-webkit-filter;
-    transition-property: opacity,filter;
-    transition-property: opacity,filter,-webkit-filter;
-    transition-duration: .15s;
-    transition-timing-function: linear;
-    font: inherit;
-    color: inherit;
-    text-transform: none;
-    background-color: transparent;
-    border: 0;
-    margin: 0;
-    overflow: visible;
-}
 .btn.hamburger.btn-primary {
     color: #fff;
     background-color: #333645;
@@ -252,18 +240,13 @@ header .search-form-wrapper--mobile>.search-form button {
     top: -50px;
     right: -50px;
 }
-.form-control {
-    height: 47px;
-    padding: 5px 15px;
-    border-color: #ccc;
-}
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .hidden-sm {
         display: none!important;
     }
 }
 header .inner .actions>*+* {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 header .inner .actions .btn {
     height: 56px;
@@ -359,6 +342,79 @@ header .inner .actions .btn {
     position: relative;
     top: 5px;
     margin-bottom: 0;
+}
+header .inner .actions .btn .icon-mouse, header .inner .actions .btn .icon-paperplane {
+    margin-right: 5px;
+}
+header .inner .actions .btn span:not(.title) {
+    font-size: 1.438rem;
+    line-height: 45px;
+}
+.form-control, output {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+}
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 1px rgb(0, 0, 0 / 8%);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control {
+    height: 47px;
+    padding: 5px 15px;
+    border-color: #ccc;
+}
+.btn {
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    user-select: none;
+    height: auto;
+    line-height: 35px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    white-space: normal;
+}
+.hamburger {
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity,-webkit-filter;
+    transition-property: opacity,filter;
+    transition-property: opacity,filter,-webkit-filter;
+    transition-duration: .15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+.hamburger-box {
+    width: 33px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+}
+.btn.hamburger .hamburger-box {
+    display: block;
+    position: relative;
+    top: -3px;
 }
 header .inner .actions .btn span:not(.title) {
     font-size: 1.438rem;
