@@ -70,12 +70,6 @@
 .col-md-4 .it:hover {
     background-color: #4183d7;
 }
-.col-md-4 .digital:hover {
-    background-color: #2ecc71;
-}
-.col-md-4 .digital:hover {
-    color: #fff;
-}
 .col-sm-6 .telecoms:hover {
     background-color: #d64541;
 }
@@ -345,9 +339,6 @@ img {
     //     padding-top: 50px;
     //     padding-bottom: 50px;
     // }
-    // .service-list {
-    //     margin-top: -30px;
-    // }
     // .row {
     //     // margin-left: -15px;
     //     // margin-right: -15px;
@@ -405,4 +396,50 @@ img {
     border-radius: 3px 3px 0 0;
     overflow: hidden;
     position: relative;
+}
+.service-list .block:hover {
+    color: #fff;
+    border-color: transparent;
+}
+.service-list .block.digital:hover, .service-list .block.digital>span.icon {
+    background-color: #2ecc71;
+}
+.service-list .block.digital:hover>span.icon {
+    background-color: #fff;
+    color: #2ecc71;
+}
+.service-list .block:hover>span.h2 {
+    color: #fff;
+}
+.service-list .block:hover>span.p {
+    color: #fff;
+}
+.service-list .block.digital:hover>span.btn-container .btn {
+    color: #2ecc71;
+    background-color: #fff;
+}
+.service-list .block.telecoms:hover, .service-list .block.telecoms>span.icon {
+    background-color: #d64541;
+}
+.service-list .block.telecoms:hover>span.icon {
+    background-color: #fff;
+    color: #d64541;
+}
+.service-list .block.web:hover>span.icon {
+    background-color: #fff;
+    color: #926fb1;
+}
+.service-list .block.security:hover, .service-list .block.security>span.icon {
+    background-color: #f62459;
+}
+.service-list .block.security:hover>span.icon {
+    background-color: #fff;
+    color: #f62459;
+}
+.service-list .block.it:hover, .service-list .block.it>span.icon {
+    background-color: #4183d7;
+}
+.service-list .block.it:hover>span.icon {
+    background-color: #fff;
+    color: #4183d7;
 }

@@ -20,46 +20,68 @@
         <div id="container">
             <div class="main">
                 <!-- Header section -->
-                <header>
-                    <div class="inner">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
-                                    <div class="logo-container">
-                                        <a class="logo" href="#">
-                                            <img src="img/logo.jpg" alt="netmatters">
+                <div id="header">
+                    <header>
+                        <div class="inner">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4">
+                                        <div class="logo-container">
+                                            <a class="logo" href="#">
+                                                <img src="img/logo.jpg" alt="netmatters">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-3 hidden-sm hidden-md hidden-lg mobile-container">
+                                        <a class="mobile" href="#">
+                                            <span class="icon-phone_in_talk">
+                                                <i class="fas fa-phone"></i>
+                                            </span>
                                         </a>
                                     </div>
-                                </div>
-                                <div class="col-xs-3 hidden-sm hidden-md hidden-lg mobile-container">
-                                    <a class="mobile" href="#">
-                                        <span class="icon-phone_in_talk">
-                                            <i class="fas fa-phone"></i>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8">
-                                    <div class="actions">
-                                        <a href="#">
-                                            <i class="fas fa-bars fa-2x"></i>
-                                        </a>
+                                    <div class="col-xs-3 col-sm-6 col-md-7 col-lg-8">
+                                        <div class="actions">
+                                            <a href="#" class="btn btn-it hidden-xs hidden-sm header-btn">
+                                                <i class="fas fa-bars fa-2x"></i>
+                                            </a>
+                                            <a href="#" class="btn btn-default hidden-xs hidden-sm header-btn">
+                                                <i class="fas fa-bars fa-2x"></i>
+                                            </a>
+                                            <div class="hidden-xs pull-left search-form-wrapper--tablet">
+                                                <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
+                                                    <label for="search-input" class="hidden">Search:</label>
+                                                    <input class="form-control search-bar" placeholder="Serach..." id="search-input" name="keyword" type="text" value>
+                                                    <button type="submit" id="search-submit">
+                                                        <span class="glyphicon glyphicon-search" area-hidden = "true">
+                                                            <i class="fas fa-search"></i>
+                                                        </span>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                            <button type="button" class="btn btn-primary hamburger hamburger--spin" data-toggle="sidebar">
+                                                <span class="hamburger-box">
+                                                    <span class="hamburger-inner"></span>
+                                                </span>
+                                                <span class="title">Menu</span>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="hidden-sm hidden-md hidden-lg search-form-wrapper--mobile">
+                                    <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
+                                        <label for="search-input" class="hidden">Search:</label>
+                                        <input class="form-control search-bar" placeholder="Serach..." id="search-input" name="keyword" type="text" value>
+                                        <button type="submit" id="search-submit">
+                                            <span class="glyphicon glyphicon-search" area-hidden = "true">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </button>
+                                    </form>
+                                </div>
                             </div>
-                            <div class="hidden-sm hidden-md hidden-lg search-form-wrapper--mobile">
-                                <form method="GET" action="#" accept-charset="UTF-8" class="search-form">
-                                    <label for="search-input" class="hidden">Search:</label>
-                                    <input class="form-control search-bar" placeholder="Serach..." id="search-input" name="keyword" type="text" value>
-                                    <button type="submit" id="search-submit">
-                                        <span class="glyphicon glyphicon-search" area-hidden = "true">
-                                            <i class="fas fa-search"></i>
-                                        </span>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>  
-                </header>
+                        </div>  
+                    </header>
+                </div>
                 <!-- Header section end -->
                     <div class="main-navigation hidden-xs hidden-sm">
                         <div class="container">
@@ -141,7 +163,7 @@
                                         <br>
                                         results driven marketing activities.
                                     </p>
-                                    <a href="#" class="btn btn-web btn-lg">
+                                    <a href="#" class="btn btn-digital btn-lg">
                                         See How We Can Help You
                                         <i class="pull-right icon-arrow-right"></i>
                                     </a>

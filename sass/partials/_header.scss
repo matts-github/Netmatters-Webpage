@@ -1,45 +1,59 @@
 header {
     background-color: #fff;
 }
+.pull-left {
+    float: left!important;
+}
+.pull-left {
+    float: left;
+}
+.btn-default {
+    color: #fff;
+    background-color: #999aa2;
+    border-color: #999aa2;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
 header .inner {
     padding: 20px 0;
 }
-header .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-}
-header .inner .row {
-    display: table;
-    width: 100%;
-    margin: 0;
-}
-header .inner .row>* {
-    padding: 0;
-    display: table-cell;
-    float: none;
-    vertical-align: middle;
-    width: 100%;
-}
-header .inner .row {
-    display: table;
-    width: 100%;
-    margin: 0;
-}
-header .inner .row>* {
-    padding: 0;
-    display: table-cell;
-    float: none;
-    vertical-align: middle;
-    width: 100%;
-}
-header .inner .row {
-    display: table;
-    width: 100%;
-    margin: 0;
-}
+// header .container {
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     width: 100%;
+// }
+// header .inner .row {
+//     display: table;
+//     width: 100%;
+//     margin: 0;
+// }
+// header .inner .row>* {
+//     padding: 0;
+//     display: table-cell;
+//     float: none;
+//     vertical-align: middle;
+//     width: 100%;
+// }
+// header .inner .row {
+//     display: table;
+//     width: 100%;
+//     margin: 0;
+// }
+// header .inner .row>* {
+//     padding: 0;
+//     display: table-cell;
+//     float: none;
+//     vertical-align: middle;
+//     width: 100%;
+// }
+// header .inner .row {
+//     display: table;
+//     width: 100%;
+//     margin: 0;
+// }
 .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-9, .col-md-10, .col-md-12, .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-12 {
     position: relative;
     min-height: 1px;
@@ -51,14 +65,90 @@ a {
     color: #333645;
     text-decoration: none;
 } 
-header img {
-    height: 100%;
-    border: 0;
-    vertical-align: middle;
-}
+// header img {
+//     height: 100%;
+//     border: 0;
+//     vertical-align: middle;
+// }
 header .inner .logo img {
     max-width: 100%;
     display: block;
+}
+.col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-12 {
+    float: left;
+}
+.col-xs-6 {
+    width: 50%;
+}
+.col-xs-3 {
+    width: 25%;
+}
+[class*=" icon-"], [class^=icon-] {
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+header .search-form-wrapper--tablet>.search-form>.form-control {
+    width: 300px;
+    height: 56px;
+    display: none;
+}
+button {
+    overflow: visible;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+header .search-form-wrapper--tablet>.search-form button {
+    outline: none;
+    padding: 7px 20px 3px;
+    height: 56px;
+    font-size: 1.063rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    vertical-align: bottom;
+    background-color: #999aa2;
+    color: #fff;
+}
+header .search-form-wrapper--tablet>.search-form button .glyphicon {
+    font-size: 23px;
+}
+.hamburger {
+    padding: 15px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity,-webkit-filter;
+    transition-property: opacity,filter;
+    transition-property: opacity,filter,-webkit-filter;
+    transition-duration: .15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+.btn.hamburger.btn-primary {
+    color: #fff;
+    background-color: #333645;
+    border-color: #333645;
 }
 @media screen and (max-width: 767px) {
     header .inner .row>* {
@@ -67,6 +157,17 @@ header .inner .logo img {
         float: none;
         vertical-align: middle;
         width: 100%;
+    }
+    header .inner .row {
+        display: table;
+        width: 100%;
+        margin: 0;
+    }
+    header .inner .row>:last-child {
+        width: 1%;
+    }
+    .hidden-xs {
+        display: none!important;
     }
 }
 @media screen and (max-width: 991px) {
@@ -78,15 +179,17 @@ header .inner .logo img {
         display: table-cell;
         vertical-align: middle;
     }
+    .mobile-container .icon-phone_in_talk {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+    header .search-form-wrapper--tablet>.search-form>.form-control {
+        display: inline-block!important;
+        border-radius: 0;
+        width: 174px;
+    }
 }
 // Updates go here
-.mobile-container .icon-phone_in_talk {
-    font-size: 32px;
-    margin-left: 15px;
-}
-header .inner .row>:last-child {
-    width: 1%;
-}
 header .inner .actions {
     float: right;
     padding: 7px 0;
@@ -94,7 +197,7 @@ header .inner .actions {
 header .search-form-wrapper--mobile>.search-form {
     margin-top: 11px;
     position: relative;
-    width: 100%;
+    // width: 100%;
 }
 label {
     font-weight: 600;
@@ -153,4 +256,111 @@ header .search-form-wrapper--mobile>.search-form button {
     height: 47px;
     padding: 5px 15px;
     border-color: #ccc;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hidden-sm {
+        display: none!important;
+    }
+}
+header .inner .actions>*+* {
+    margin-left: 20px;
+}
+header .inner .actions .btn {
+    height: 56px;
+    line-height: 46px;
+    font-size: 1.125rem;
+    float: left;
+}
+.hamburger-box {
+    width: 33px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+}
+.btn.hamburger .hamburger-box {
+    display: block;
+    position: relative;
+    top: -3px;
+}
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -1.5px;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    width: 33px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 0;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: .15s;
+    transition-timing-function: ease;
+}
+.hamburger--spin .hamburger-inner {
+    transition-duration: .22s;
+    transition-timing-function: cubic-bezier(.55,.055,.675,.19);
+}
+.btn.hamburger .hamburger-box .hamburger-inner, .btn.hamburger .hamburger-box .hamburger-inner:after, .btn.hamburger .hamburger-box .hamburger-inner:before {
+    background-color: #fff;
+    border-radius: 0;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    width: 33px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 0;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: .15s;
+    transition-timing-function: ease;
+}
+.hamburger-inner:after, .hamburger-inner:before {
+    content: "";
+    display: block;
+}
+.hamburger-inner:before {
+    top: -8px;
+}
+.hamburger--spin .hamburger-inner:before {
+    transition: top .1s ease-in .25s,opacity .1s ease-in;
+}
+.hamburger--spin .hamburger-inner:before {
+    transition: top .1s ease-in .25s,opacity .1s ease-in;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+    width: 33px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 0;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: .15s;
+    transition-timing-function: ease;
+}
+.hamburger-inner:after, .hamburger-inner:before {
+    content: "";
+    display: block;
+}
+.hamburger-inner:after {
+    bottom: -8px;
+}
+.hamburger--spin .hamburger-inner:after {
+    transition: bottom .1s ease-in .25s,transform .22s cubic-bezier(.55,.055,.675,.19);
+}
+.btn.hamburger .hamburger-box .hamburger-inner, .btn.hamburger .hamburger-box .hamburger-inner:after, .btn.hamburger .hamburger-box .hamburger-inner:before {
+    background-color: #fff;
+    border-radius: 0;
+}
+.btn.hamburger .title {
+    display: block;
+    font-size: .75rem;
+    line-height: 1;
+    position: relative;
+    top: 5px;
+    margin-bottom: 0;
+}
+header .inner .actions .btn span:not(.title) {
+    font-size: 1.438rem;
+    line-height: 45px;
 }

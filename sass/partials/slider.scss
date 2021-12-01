@@ -52,9 +52,8 @@
     // position: relative;
     // background-color: #000;
 }
-#banner .sliding .item>* {
+#banner .not-sliding .item>*, #banner .sliding .item>* {
     color: #fff;
-    text-align: center;
 }
 #banner .sliding .item .img-cover-modern-container {
     height: 100%;
