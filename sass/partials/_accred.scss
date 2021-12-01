@@ -1,0 +1,93 @@
+.accreditations {
+    padding: 50px 0;
+    text-align: center;
+}
+.accreditations .list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.accreditations .list .item {
+    flex-grow: 1;
+    vertical-align: middle;
+    padding: 0 20px;
+    position: relative;
+}
+
+#__partnersbadge_0 {
+    text-indent: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border-style: none;
+    float: none;
+    line-height: normal;
+    font-size: 1px;
+    vertical-align: baseline;
+    display: inline-block;
+    width: 220px;
+    height: 82px;
+}
+#partner {
+    position: static;
+    top: 0px;
+    width: 220px;
+    margin: 0px;
+    border-style: none;
+    left: 0px;
+    visibility: visible;
+    height: 82px;
+}
+.section.clients .list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.section.clients .list .item {
+    flex-grow: 1;
+    vertical-align: middle;
+    padding: 0 20px;
+    position: relative;
+}
+.section.clients .list .item .description {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: -200px;
+    right: -200px;
+}
+.section.clients .list .item .description .box {
+    background-color: #333645;
+    color: #fff;
+    padding: 20px;
+    font-size: .875rem;
+    max-width: 260px;
+    margin: 0 auto 50px;
+}
+.section.clients .list .item .description .box h3 {
+    position: relative;
+    font-size: 1.125rem;
+    color: #fff;
+    padding-bottom: 17px;
+    margin: 0 0 11px;
+}
+.section.clients .list .item .description .box p {
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    margin-bottom: 0;
+}
+.section.clients .list .item .description .box .arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -36px;
+}
+.section.clients .list .item .coloured {
+    display: none;
+}
+.section.clients .list .item .coloured {
+    display: none;
+}
+.accreditations .list.second-row {
+    margin-top: 20px;
+}

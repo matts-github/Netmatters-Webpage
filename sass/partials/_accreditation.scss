@@ -425,8 +425,14 @@ img {
     background-color: #fff;
     color: #d64541;
 }
+.service-list .block.telecoms:hover>span.btn-container .btn {
+    color: #d64541;
+}
 .service-list .block.web:hover>span.icon {
     background-color: #fff;
+    color: #926fb1;
+}
+.service-list .block.web:hover>span.btn-container .btn {
     color: #926fb1;
 }
 .service-list .block.security:hover, .service-list .block.security>span.icon {
@@ -436,10 +442,21 @@ img {
     background-color: #fff;
     color: #f62459;
 }
+.service-list .block.security:hover>span.btn-container .btn {
+    color: #f62459;
+}
 .service-list .block.it:hover, .service-list .block.it>span.icon {
     background-color: #4183d7;
 }
 .service-list .block.it:hover>span.icon {
     background-color: #fff;
+    color: #4183d7;
+}
+.service-list .block:hover>span.btn-container .btn {
+    border-color: #fff;
+    background-color: #fff;
+    color: #333645;
+}
+.service-list .block.it:hover>span.btn-container .btn {
     color: #4183d7;
 }

@@ -304,6 +304,10 @@ footer .footer-row .offices {
         width: 100%;
         justify-content: space-evenly;
     }
+    .section.clients .list .item img {
+        height: auto;
+        width: 100%;
+    }
 }
 @media screen and (min-width: 992px) {
     // .container {

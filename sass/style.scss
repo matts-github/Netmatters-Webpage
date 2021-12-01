@@ -9,6 +9,7 @@
 @import 'partials/media';
 @import 'partials/hidden-nav-bar';
 @import 'partials/header';
+@import 'partials/accred';
 * {
     box-sizing: border-box;
 }
@@ -432,16 +433,16 @@ img {
         // font-weight: 600;
         // color: #333645;
     }
-    .service-list .block>span {
-        display: block;
-    }
-    .service-list .block>span.icon {
-        height: 60px;
-        width: 60px;
-        margin: 0 auto 17px;
-        color: #fff;
-        border-radius: 50%;
-    }
+    // .service-list .block>span {
+    //     display: block;
+    // }
+    // .service-list .block>span.icon {
+    //     height: 60px;
+    //     width: 60px;
+    //     margin: 0 auto 17px;
+    //     color: #fff;
+    //     border-radius: 50%;
+    // }
     .block.software>span.icon {
         background-color: #67809f;
     }
@@ -451,9 +452,9 @@ img {
         font-weight: 400;
         color: #333645;
     }
-    .service-list .block>span {
-        display: block;
-    }
+    // .service-list .block>span {
+    //     display: block;
+    // }
     .block>span.h2 {
         font-size: 1.125rem;
         position: relative;
@@ -735,6 +736,13 @@ img {
     .col-lg-3 {
         width: 25%;
     }
+}
+.service-list .block>span.icon {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto 17px;
+    color: #fff;
+    border-radius: 50%;
 }
 .article-list .item .block h3 a {
     font-weight: 600;
