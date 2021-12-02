@@ -79,21 +79,21 @@ input {
     margin: 0;
     font-family: inherit;
 }
-// .form-control {
-//     display: block;
-//     font-size: 14px;
-//     line-height: 1.42857143;
-//     color: #555;
-//     width: 100%;
-//     background-color: #fff;
-//     background-image: none;
-//     border: 1px solid #e5e5e5;
-//     border-radius: 2px;
-//     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-//     height: 40px;
-//     padding: 5px 15px;
-//     border-color: #ddd ;
-// }
+.form-control {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 40px;
+    padding: 5px 15px;
+    border-color: #ddd ;
+}
 .media-left, .media>.pull-left {
     padding-right: 10px;
 }
@@ -136,6 +136,15 @@ label.pretty-checkbox .button {
     float: left;
     margin-right: 20px;
 }
+.checkbox__box::after {
+    content: '\2714';
+    color: #fff;
+}
+.checkbox:checked + .checkbox__box {
+    background: #000;
+    border-color: #000;
+}
+
 label.pretty-checkbox .button i, label.pretty-checkbox .button span {
     display: none;
     line-height: 26px;
@@ -150,6 +159,20 @@ label.pretty-checkbox.active .button span {
     color: #fff;
     display: block;
 }
+.marketing_prefernce {
+    display: none;
+}
+.checkbox__box {
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
 .media-body {
     zoom: 1;
     overflow: hidden;
@@ -160,26 +183,26 @@ label.pretty-checkbox.active .button span {
 button {
     font-family: inherit;
 }
-// .btn {
-//     display: inline-block;
-//     margin-bottom: 0;
-//     font-weight: 400;
-//     text-align: center;
-//     vertical-align: middle;
-//     cursor: pointer;
-//     background-image: none;
-//     border: 1px solid transparent;
-// }
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+}
 .btn-primary {
     color: #fff;
     background-color: #333645;
     border-color: #333645;
 }
-// button, input, select, textarea {
-//     font-family: inherit;
-//     font-size: inherit;
-//     line-height: inherit;
-// }
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
 input[type=checkbox], input[type=radio] {
     box-sizing: border-box;
     padding: 0;
@@ -192,8 +215,48 @@ input[type=checkbox], input[type=radio] {
 label.pretty-checkbox .button [type=checkbox] {
     display: none;
 }
+label.pretty-checkbox.active .button {
+    background-color: #333645;
+}
+label.pretty-checkbox.active .button i, label.pretty-checkbox.active .button span {
+    color: #fff;
+    display: block;
+}
+.mdi-action-done:before {
+    content: "\E623";
+}
 @media screen and (min-width: 1260px) {
     // .container {
     //     width: 1200px;
     // }
+    // .block telecoms {
+    //     position: relative;
+    //     left: 500px;
+    // }
 }
+// #email-chkbox {
+//     appearance: none;
+//     width: 1.8em;
+//     height: 1.8em;
+//     border: 3px solid #333645;
+//     border-radius: 3px;
+//     cursor: pointer;
+//     z-index: 2;
+
+//     & ~ .icon-checkbox-checked {
+//         visibility: hidden;
+//         height: 20px;
+//         margin: 0.5em 1.5em 0 -1.4em ;
+//         transform: scale(1.9);
+//         z-index: 1;
+//     }
+// }
+//     #email-chkbox:checked {
+//         & ~ .icon-checkbox-checked {
+//         visibility: visible !important;
+//                     }
+//         }
+
+// .checkbox::before {
+//     content: "\E623";
+// }
