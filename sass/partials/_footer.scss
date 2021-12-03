@@ -308,6 +308,9 @@ footer .footer-row .offices {
         height: auto;
         width: 100%;
     }
+    .main-navigation .container>ul>li>ul>li>a {
+        font-size: .8125rem;
+    }
 }
 @media screen and (min-width: 992px) {
     // .container {
