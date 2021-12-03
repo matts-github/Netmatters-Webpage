@@ -956,6 +956,13 @@ a:focus, a:hover {
 .main-navigation .container>ul>li.web>ul, .main-navigation .container>ul>li.web>ul:after, .main-navigation .container>ul>li.web>ul:before {
     background-color: #79539a;
 }
+.main-navigation .container>ul>li.web>ul, .main-navigation .container>ul>li.web>ul:after, .main-navigation .container>ul>li.web>ul:before {
+    background-color: #79539a;
+}
+.main-navigation .container>ul>li>ul:before {
+    right: 100%;
+    width: 2000px;
+}
 @media screen and (min-width: 1260px) {
     .main-navigation .container>ul>li>ul>li:not(:first-child) a {
         padding-left: 30px;
@@ -976,19 +983,19 @@ a:focus, a:hover {
 //     bottom: 0;
 //     background-color: #1d1f28;
 // }
-.main-navigation .container>ul>li>ul:before {
-    right: 100%;
-    width: 2000px;
-}
-.main-navigation .container>ul>li>ul:before {
+// .main-navigation .container>ul>li>ul:before {
+//     right: 100%;
+//     width: 2000px;
+// }
+.main-navigation .container>ul>li>ul {
     right: 100%;
     width: 2000px;
 }
 .main-navigation .container>ul>li.web>ul, .main-navigation .container>ul>li.web>ul:after, .main-navigation .container>ul>li.web>ul:before {
     background-color: #79539a;
 }
-.main-navigation ul li .web:hover .main-navigation .container>ul>li>ul {
-    display: block;
+.main-navigation:hover .main-navigation .container>ul>li>ul {
+    // display: block;
     background-color: #79539a ;
 }
 .section.clients .list .item .description .box {
@@ -1009,4 +1016,38 @@ a:focus, a:hover {
 }
 .section.clients .list .item:hover .description {
     display: block;
+}
+.main-navigation .container>ul>li:hover>ul {
+    display: block;
+}
+.main-navigation .container>ul>li.web.open, .main-navigation .container>ul>li.web:hover, .main-navigation .container>ul>li.web.open:before {
+    background-color: #926fb1;
+}
+.main-navigation .container>ul>li>ul:after {
+    left: 100%;
+    width: 2000px;
+}
+.main-navigation .container>ul>li.digital:hover>a span, .main-navigation .container>ul>li.it.open>a span, .main-navigation .container>ul>li.security.open>a span, .main-navigation .container>ul>li.software.open>a span, .main-navigation .container>ul>li.telecoms.open>a span, .main-navigation .container>ul>li.web.open>a span {
+    color: #fff;
+}
+.main-navigation .container>ul>li.web>ul, .main-navigation .container>ul>li.web>ul:after, .main-navigation .container>ul>li.web>ul:before {
+    background-color: #79539a;
+}
+.main-navigation .container>ul>li>ul:after, .main-navigation .container>ul>li>ul:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #1d1f28;
+}
+a:focus, a:hover {
+    color: #121419;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a {
+    background: transparent;
 }
