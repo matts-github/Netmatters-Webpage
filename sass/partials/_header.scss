@@ -23,42 +23,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 header .inner {
     padding: 20px 0;
 }
-// header .container {
-//     margin-right: auto;
-//     margin-left: auto;
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     width: 100%;
-// }
-// header .inner .row {
-//     display: table;
-//     width: 100%;
-//     margin: 0;
-// }
-// header .inner .row>* {
-//     padding: 0;
-//     display: table-cell;
-//     float: none;
-//     vertical-align: middle;
-//     width: 100%;
-// }
-// header .inner .row {
-//     display: table;
-//     width: 100%;
-//     margin: 0;
-// }
-// header .inner .row>* {
-//     padding: 0;
-//     display: table-cell;
-//     float: none;
-//     vertical-align: middle;
-//     width: 100%;
-// }
-// header .inner .row {
-//     display: table;
-//     width: 100%;
-//     margin: 0;
-// }
 .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-9, .col-md-10, .col-md-12, .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-6, .col-xs-8, .col-xs-12 {
     position: relative;
     min-height: 1px;
@@ -66,15 +30,9 @@ header .inner {
     padding-right: 15px;
 }
 a {
-    // background: transparent;
     color: #333645;
     text-decoration: none;
 } 
-// header img {
-//     height: 100%;
-//     border: 0;
-//     vertical-align: middle;
-// }
 header .inner .logo img {
     max-width: 100%;
     display: block;
@@ -88,17 +46,6 @@ header .inner .logo img {
 .col-xs-3 {
     width: 25%;
 }
-// [class*=" icon-"], [class^=icon-] {
-//     font-family: icomoon!important;
-//     speak: none;
-//     font-style: normal;
-//     font-weight: 400;
-//     font-variant: normal;
-//     text-transform: none;
-//     line-height: 1;
-//     -webkit-font-smoothing: antialiased;
-//     -moz-osx-font-smoothing: grayscale;
-// }
 header .search-form-wrapper--tablet>.search-form>.form-control {
     width: 300px;
     height: 56px;
@@ -193,7 +140,6 @@ header .inner .actions {
 header .search-form-wrapper--mobile>.search-form {
     margin-top: 11px;
     position: relative;
-    // width: 100%;
 }
 label {
     font-weight: 600;
