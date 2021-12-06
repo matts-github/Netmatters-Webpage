@@ -885,6 +885,21 @@ a:focus, a:hover {
     z-index: 10;
     list-style: none;
 }
+.main-navigation .container>ul>li.it>ul, .main-navigation .container>ul>li.it>ul:after, .main-navigation .container>ul>li.it>ul:before {
+    background-color: #2a6ec6;
+}
+.main-navigation .container>ul>li.telecoms>ul, .main-navigation .container>ul>li.telecoms>ul:after, .main-navigation .container>ul>li.telecoms>ul:before {
+    background-color: #de093f;
+}
+.main-navigation .container>ul>li.software>ul, .main-navigation .container>ul>li.software>ul:after, .main-navigation .container>ul>li.software>ul:before {
+    background-color: #526781;
+}
+.main-navigation .container>ul>li.digital>ul, .main-navigation .container>ul>li.digital>ul:after, .main-navigation .container>ul>li.digital>ul:before {
+    background-color: #2ecc71;
+}
+.main-navigation .container>ul>li.security>ul, .main-navigation .container>ul>li.security>ul:after, .main-navigation .container>ul>li.security>ul:before {
+    background-color: #de093f;
+}
 .main-navigation .container>ul>li>ul>li>a {
     text-decoration: none;
     text-align: left;
@@ -1050,4 +1065,38 @@ a:active, a:hover {
 }
 a {
     background: transparent;
+}
+.main-navigation .container>ul>li.it.open, .main-navigation .container>ul>li.it:hover, .main-navigation .container>ul>li.it.open:before {
+    background-color: #2a6ec6;
+    color: #fff;
+}
+.main-navigation .container>ul>li.telecoms.open, .main-navigation .container>ul>li.telecoms:hover, .main-navigation .container>ul>li.telecoms.open:before {
+    background-color: #de093f;
+}
+.main-navigation .container>ul>li.software.open, .main-navigation .container>ul>li.software:hover, .main-navigation .container>ul>li.software.open:before {
+    background-color: #526781;
+}
+.main-navigation .container>ul>li.digital.open, .main-navigation .container>ul>li.digital:hover, .main-navigation .container>ul>li.digital.open:before {
+    background-color: #2ecc71;
+}
+.main-navigation .container>ul>li.security.open, .main-navigation .container>ul>li.security:hover, .main-navigation .container>ul>li.secutiry.open:before {
+    background-color: #de093f;
+}
+.main-navigation .container>ul>li.web:hover .fa-code {
+    color: #fff;
+}
+.main-navigation .container>ul>li.it:hover .fa-desktop {
+    color: #fff;
+}
+.main-navigation .container>ul>li.telecoms:hover .fa-phone-volume {
+    color: #fff;
+}
+.main-navigation .container>ul>li.software:hover .fa-th {
+    color: #fff;
+}
+.main-navigation .container>ul>li.digital:hover .fa-signal {
+    color: #fff;
+}
+.main-navigation .container>ul>li.security:hover .fa-shield-alt {
+    color: #fff;
 }
