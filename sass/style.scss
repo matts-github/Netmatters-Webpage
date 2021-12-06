@@ -94,11 +94,11 @@ img {
         content: " ";
         display: table;
     }
-    .service-list .block {
-        text-decoration: none;
-        margin-top: 30px;
-        text-align: center;
-    }
+    // .service-list .block {
+    //     text-decoration: none;
+    //     margin-top: 30px;
+    //     text-align: center;
+    // }
     .container {
         width: 750px;
     }
@@ -216,6 +216,7 @@ img {
         line-height: 1.375rem;
         margin-bottom: 13px;
         font-weight: 400;
+        height: 100px;
     }
     .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12 {
         float: left;
@@ -265,7 +266,7 @@ img {
         width: 50%;
     }
     .cms-block .brand-background {
-        background-image: url(/assets/images/branded.png);
+        background-image: url(https://media.discordapp.net/attachments/803903703454187530/917417655529512991/branded.png);
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: auto 100%;
@@ -487,19 +488,19 @@ a:focus, a:hover {
     list-style: none;
 }
 .main-navigation .container>ul>li.it>ul, .main-navigation .container>ul>li.it>ul:after, .main-navigation .container>ul>li.it>ul:before {
-    background-color: #2a6ec6;
+    background-color: #286ABD;
 }
 .main-navigation .container>ul>li.telecoms>ul, .main-navigation .container>ul>li.telecoms>ul:after, .main-navigation .container>ul>li.telecoms>ul:before {
-    background-color: #de093f;
+    background-color: #BC2C28;
 }
 .main-navigation .container>ul>li.software>ul, .main-navigation .container>ul>li.software>ul:after, .main-navigation .container>ul>li.software>ul:before {
     background-color: #526781;
 }
 .main-navigation .container>ul>li.digital>ul, .main-navigation .container>ul>li.digital>ul:after, .main-navigation .container>ul>li.digital>ul:before {
-    background-color: #2ecc71;
+    background-color: #25A25A;
 }
 .main-navigation .container>ul>li.security>ul, .main-navigation .container>ul>li.security>ul:after, .main-navigation .container>ul>li.security>ul:before {
-    background-color: #de093f;
+    background-color: #DE093F;
 }
 .main-navigation .container>ul>li>ul>li>a {
     text-decoration: none;
@@ -513,6 +514,7 @@ a:focus, a:hover {
     font-size: 1rem;
 }
 .main-navigation .container>ul>li>ul>li:not(:first-child) a {
+    content: "-";
     padding-left: 20px;
 }
 .btn.btn-software.active, .btn.btn-software:active, .btn.btn-software:focus, .btn.btn-software:hover {
@@ -648,20 +650,20 @@ a {
     background: transparent;
 }
 .main-navigation .container>ul>li.it.open, .main-navigation .container>ul>li.it:hover, .main-navigation .container>ul>li.it.open:before {
-    background-color: #2a6ec6;
+    background-color: #4183D7;
     color: #fff;
 }
 .main-navigation .container>ul>li.telecoms.open, .main-navigation .container>ul>li.telecoms:hover, .main-navigation .container>ul>li.telecoms.open:before {
-    background-color: #de093f;
+    background-color: #d64541;
 }
 .main-navigation .container>ul>li.software.open, .main-navigation .container>ul>li.software:hover, .main-navigation .container>ul>li.software.open:before {
-    background-color: #526781;
+    background-color: #67809F;
 }
 .main-navigation .container>ul>li.digital.open, .main-navigation .container>ul>li.digital:hover, .main-navigation .container>ul>li.digital.open:before {
-    background-color: #2ecc71;
+    background-color: #2ECC71;
 }
 .main-navigation .container>ul>li.security.open, .main-navigation .container>ul>li.security:hover, .main-navigation .container>ul>li.secutiry.open:before {
-    background-color: #de093f;
+    background-color: #F62459;
 }
 .main-navigation .container>ul>li.web:hover .fa-code {
     color: #fff;
@@ -686,4 +688,11 @@ label a {
 }
 footer ul li a, footer ul li a:hover {
     color: #fff;
+}
+.main-navigation .container>ul>li>ul>li:not(:last-child) a:after {
+    content: "-";
+    padding-left: 20px;
+}
+.main-navigation .container>ul>li>ul>li:not(:first-child) a {
+    padding-left: 20px;
 }
