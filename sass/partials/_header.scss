@@ -130,8 +130,16 @@ header .search-form-wrapper--tablet>.search-form button {
     background-color: #999aa2;
     color: #fff;
 }
+header .search-form-wrapper--tablet>.search-form button:hover {
+    background-color: #7e808a;
+}
 header .search-form-wrapper--tablet>.search-form button .glyphicon {
     font-size: 23px;
+}
+.btn.hamburger.btn-primary.active, .btn.hamburger.btn-primary:active, .btn.hamburger.btn-primary:focus, .btn.hamburger.btn-primary:hover {
+    color: #fff;
+    background-color: #22242e;
+    border-color: #191a22;
 }
 .btn.hamburger.btn-primary {
     color: #fff;

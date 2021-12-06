@@ -847,8 +847,8 @@ a:active, a:hover {
     outline: 0;
 }
 a:focus, a:hover {
-    // color: #121419;
-    // text-decoration: underline;
+    color: #121419;
+    text-decoration: underline;
 }
 .main-navigation .container.web>ul>li:hover {
     background-color: #79539a;
@@ -857,6 +857,7 @@ a:focus, a:hover {
     color: #fff;
     background-color: #26ab5f;
     border-color: #239a55;
+    text-decoration: none;
 }
 .btn-default {
     color: #fff;
@@ -867,11 +868,13 @@ a:focus, a:hover {
     color: #fff;
     background-color: #84858f;
     border-color: #797a85;
+    text-decoration: none;
 }
 .btn.btn-it.active, .btn.btn-it:active, .btn.btn-it:focus, .btn.btn-it:hover {
     color: #fff;
     background-color: #2a6ec6;
     border-color: #2665b5;
+    text-decoration: none;
 }
 .main-navigation .container>ul>li>ul {
     padding: 0;
@@ -918,6 +921,7 @@ a:focus, a:hover {
     color: #fff;
     background-color: #566c88;
     border-color: #4e627b;
+    text-decoration: none;
 }
 // .main-navigation .container>ul>li.web>ul, .main-navigation .container>ul>li.web>ul:after, .main-navigation .container>ul>li.web>ul:before {
 //     background-color: #79539a;
@@ -1057,7 +1061,6 @@ a:focus, a:hover {
     background-color: #1d1f28;
 }
 a:focus, a:hover {
-    color: #121419;
     text-decoration: underline;
 }
 a:active, a:hover {
@@ -1098,5 +1101,11 @@ a {
     color: #fff;
 }
 .main-navigation .container>ul>li.security:hover .fa-shield-alt {
+    color: #fff;
+}
+label a {
+    text-decoration: underline;
+}
+footer ul li a, footer ul li a:hover {
     color: #fff;
 }
