@@ -286,6 +286,7 @@ img {
     .col-md-7 {
         width: 58.33333333%;
     }
+   
 }
 @media screen and (max-width: 991px) {
     #banner .not-sliding .item>*, #banner .sliding .item>* {
@@ -320,6 +321,7 @@ img {
         display: inline-block!important;
         border-radius: 0;
         width: 240px;
+        margin-right: -4.5px;
     } 
     #partial-79400 {
         width: 1136px;
@@ -343,6 +345,7 @@ img {
     margin: 0 auto 17px;
     color: #fff;
     border-radius: 50%;
+    padding-top: 18px;
 }
 .article-list .item .block h3 a {
     font-weight: 600;
@@ -405,6 +408,17 @@ ol, ul {
 @media screen and (min-width: 992px) and (max-width: 1259px) {
     .hidden-md {
         display: none!important;
+    }
+    header .search-form-wrapper--tablet>.search-form button {
+        outline: none;
+        padding: 7px 20px 3px;
+        height: 56px;
+        font-size: 1.063rem;
+        border-radius: 3px 3px 3px 3px;
+        border: none;
+        vertical-align: bottom;
+        background-color: #999aa2;
+        color: #fff;
     }
 }
 .main-navigation .container>ul>li {
@@ -702,4 +716,37 @@ footer ul li a, footer ul li a:hover {
 }
 .main-navigation .container>ul>li>ul>li:not(:first-child) a {
     padding-left: 20px;
+}
+#partial-79409 {
+    background-color: #f0f0f0;
+}
+label.required:after, label .required:after {
+    content: " *";
+    color: #d24d57;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.section.clients .list .item .description .box h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+}
+.checkbox-container label {
+    width: 80%;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
 }

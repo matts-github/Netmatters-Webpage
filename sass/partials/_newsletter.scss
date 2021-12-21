@@ -29,6 +29,7 @@ h2 {
     font-size: 30px;
     margin: 0 0 15px;
     color: #333645;
+    font-size: 2rem;
 }
 .sign-up-inputs-wrapper {
     display: flex;
@@ -73,11 +74,12 @@ input {
         .checkbox-container{
             display: flex;
             flex-direction: row;
-            max-height: 10rem;
+            // max-height: 10rem;
             min-width: 10rem;
             font-size: 18px;
             margin-top: 0.8em;
             font-weight: 600;
+            margin-bottom: 15px;
     
             label {
                 width: 80%;
