@@ -718,7 +718,7 @@ footer ul li a, footer ul li a:hover {
     padding-left: 20px;
 }
 #partial-79409 {
-    background-color: #f0f0f0;
+    // background-color: #f0f0f0;
 }
 label.required:after, label .required:after {
     content: " *";
@@ -749,4 +749,22 @@ label {
     font-size: 16px;
     line-height: 30px;
     cursor: pointer;
+}
+#g {
+    max-width: 219px;
+}
+.greyscale {
+    background-color: #797a85;
+}
+#acreditations {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    // margin-top: -15px;
+}
+#bottom-sec {
+    margin-top: -20px; 
+}
+#tint {
+    box-shadow: 0 5px 35px #b3b0b0;
 }
