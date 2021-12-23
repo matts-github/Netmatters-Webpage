@@ -159,7 +159,7 @@
 }
 .article-list .item .block:not(.top) {
     border-top: 0;
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 3px 3px 0;
 }
 .date {
     color: #666;
@@ -270,7 +270,7 @@
 }
 .article-list .item .img-container .img {
     display: block;
-    border-radius: 3px 3px 0 0;
+    border-radius: 0 3px 3px 0;
     overflow: hidden;
     position: relative;
 }
