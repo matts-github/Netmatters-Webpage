@@ -191,6 +191,9 @@ footer .footer-row .offices {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .visible-xs {
+        display: block!important;
+    }
 }
 footer .footer-row .offices .office {
     width: 225px;

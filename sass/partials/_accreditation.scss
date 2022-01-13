@@ -264,7 +264,29 @@
    
 }
 @media screen and (min-width: 768px) {
-    
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+    .modal-content {
+        box-shadow: 0 5px 15px rgb(0, 0, 0 / 50%);
+    }
+    .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-3, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
 }
 .article-list>* {
 }
