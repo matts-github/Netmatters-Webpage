@@ -40,11 +40,10 @@ window.onload = () => {
     }
     
 };
-$(document).ready(function () {
-const menu_btn = document.querySelector('.lines-button');
-const mobile_menu = document.querySelector('.main');
-const dimmed = document.querySelector('.menu-active');
-const shut_menu = document.querySelector('.menu-active');
+    const menu_btn = document.querySelector('.lines-button');
+    const mobile_menu = document.querySelector('.main');
+    const dimmed = document.querySelector('.menu-active');
+    const shut_menu = document.querySelector('.menu-active');
 
 menu_btn.addEventListener('click', function() {
     toggleMenu();

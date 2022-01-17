@@ -1516,9 +1516,13 @@ body {
 @media screen and (min-width: 1200px) {
 
 }
-// .title {
-//     color: #fff;
-// }
+.outside {
+    // display: flex;
+    background-color: #333645;
+}
+.title {
+    color: #fff;
+}
 
 .menu-active.is-active {
     display: block;
