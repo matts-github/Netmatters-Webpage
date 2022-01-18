@@ -46,6 +46,78 @@
     display: block;
     background-color: #333645;
 }
+#after1 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
+#after2 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
+#after3 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
+#after4 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
+#after5 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
+#after6 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 28px;
+    height: 3px;
+    display: block;
+    background-color: #333645;
+}
 .service-list .block>span.p {
     font-size: .8125rem;
     line-height: 1.375rem;
@@ -106,6 +178,24 @@
 .container:after {
     clear: both;
 }
+.container:after1 {
+    clear: both;
+}
+.container:after2 {
+    clear: both;
+}
+.container:after3 {
+    clear: both;
+}
+.container:after4 {
+    clear: both;
+}
+.container:after5 {
+    clear: both;
+}
+.container:after6 {
+    clear: both;
+}
 .bar ul:before {
     content: " ";
     display: table;
@@ -137,6 +227,60 @@
     background-color: #333645;
     height: 5px;
 }
+.bar ul>li>span:after1 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.bar ul>li>span:after2 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.bar ul>li>span:after3 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.bar ul>li>span:after4 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.bar ul>li>span:after5 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
+.bar ul>li>span:after6 {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333645;
+    height: 5px;
+}
 @media screen and (min-width: 992px) {
     .row:before {
         content: " ";
@@ -151,5 +295,23 @@
     margin-top: -30px;
 }
 .service-list .block:hover>span.h2>span#after {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after1 {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after2 {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after3 {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after4 {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after5 {
+    background-color: #fff;
+}
+.service-list .block:hover>span.h2>span#after6 {
     background-color: #fff;
 }

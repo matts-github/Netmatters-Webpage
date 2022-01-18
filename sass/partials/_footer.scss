@@ -128,9 +128,9 @@ footer .bottom .social-media a {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    padding: 7px 10px 10px;
+    padding: 1px 10px 10px;
     border-radius: 50%;
-    max-height: 38px;
+    max-height: 30px;
 }
 .form-group a {
     background: transparent;
@@ -191,6 +191,9 @@ footer .footer-row .offices {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .visible-xs {
+        display: block!important;
+    }
 }
 footer .footer-row .offices .office {
     width: 225px;
@@ -200,4 +203,13 @@ footer .footer-row .offices .office {
 footer .footer-row .services .service {
     width: 225px;
     margin-bottom: 30px;
+}
+footer .bottom .social-media a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 10px 10px;
+    border-radius: 50%;
+    max-height: 30px;
 }
