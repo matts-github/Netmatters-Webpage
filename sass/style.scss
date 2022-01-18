@@ -1739,3 +1739,7 @@ header .inner .actions .btn span:not(.title) {
 .menu-active.is-active {
     transform: translate3d(-260px, 0, 0);
 }
+.fa-check-square:before, .fa-square-check:before {
+    content: "\f14a";
+    color: #333645;
+}
