@@ -18,28 +18,47 @@
 //     }
 // }
 
-const storageType = sessionStorage;
+const storageType = localStorage;
 const consentPropertyName = 'jdc-consent';
 
 const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
 const saveToStorage = () => storageType.setItem(consentPropertyName, true);
 
+
+
+// function noscroll(){
+//     window.scrollTo(0,0);
+
+// }
+
+// window.addEventListener("scroll", noscroll);  
+
 window.onload = () => {
     const consentPopUp = document.getElementById('cookie-consent');
     const acceptBtn = document.getElementById('accept');
+    document.getElementById("h").style.overflow = "hidden";
 
     const acceptFn = event => {
+        
         saveToStorage(storageType);
+        
+
         consentPopUp.classList.add('hidden');
+        document.getElementById("h").style.overflow = "auto";
     };
 
     acceptBtn.addEventListener('click', acceptFn);
 
     if (shouldShowPopup()) {
-        consentPopUp.classList.remove('hidden');    
+        consentPopUp.classList.remove('hidden'); 
+        document.getElementById("h").style.overflow = "auto";
+        
     }
+
+
     
 };
+//Sidebar Button
     const menu_btn = document.querySelector('.lines-button');
     const mobile_menu = document.querySelector('.main');
     const dimmed = document.querySelector('.menu-active');
