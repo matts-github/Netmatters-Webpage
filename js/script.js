@@ -24,6 +24,21 @@ const consentPropertyName = 'jdc-consent';
 const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
 const saveToStorage = () => storageType.setItem(consentPropertyName, true);
 
+// window.onload = () => {
+//    const consentPopUp = document.getElementById('consent-popup');
+//    const acceptBtn = document.getElementById('accept');
+
+//    const acceptFn = event => {
+//        saveToStorage(storageType);
+//        consentPopUp.classList.add('hidden');
+//    };
+
+//    acceptBtn.addEventListener('click', acceptFn);
+
+//    if (shouldShowPopup(storageType)) {
+//        consentPopUp.classList.remove('hidden');
+//    }
+// }
 
 
 // function noscroll(){
@@ -53,7 +68,7 @@ window.onload = () => {
         consentPopUp.classList.remove('hidden'); 
         document.getElementById("h").style.overflow = "auto";
         
-    }
+    } 
 
 
     
