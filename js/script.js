@@ -18,12 +18,6 @@
 //     }
 // }
 
-const storageType = localStorage;
-const consentPropertyName = 'jdc-consent';
-
-const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
-const saveToStorage = () => storageType.setItem(consentPropertyName, true);
-
 // window.onload = () => {
 //    const consentPopUp = document.getElementById('consent-popup');
 //    const acceptBtn = document.getElementById('accept');
@@ -48,10 +42,18 @@ const saveToStorage = () => storageType.setItem(consentPropertyName, true);
 
 // window.addEventListener("scroll", noscroll);  
 
+const storageType = localStorage;
+const consentPropertyName = 'jdc-consent';
+
+const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
+const saveToStorage = () => storageType.setItem(consentPropertyName, true);
+
+
+
 window.onload = () => {
     const consentPopUp = document.getElementById('cookie-consent');
     const acceptBtn = document.getElementById('accept');
-    document.getElementById("h").style.overflow = "hidden";
+    document.getElementById("h").style.overflow = "auto";
 
     const acceptFn = event => {
         
@@ -59,16 +61,19 @@ window.onload = () => {
         
 
         consentPopUp.classList.add('hidden');
-        document.getElementById("h").style.overflow = "auto";
+        //To stop scrolling
+        // document.getElementById("h").style.overflow = "auto";
     };
 
     acceptBtn.addEventListener('click', acceptFn);
 
     if (shouldShowPopup()) {
         consentPopUp.classList.remove('hidden'); 
-        document.getElementById("h").style.overflow = "auto";
+        document.getElementById("h").style.overflow = "hidden";
         
-    } 
+    } else {
+        document.getElementById("h").style.overflow = "scroll";
+    }
 
 
     
