@@ -866,9 +866,9 @@ input {
 #container>.sidebar>.main>ul>li.web>a span {
     color: #926fb1;
 }
-.icon-display {
-    color: #4183d7;
-}
+// .icon-display {
+//     color: #4183d7;
+// }
 #ring {
     color: #d64541;
 }
@@ -1921,6 +1921,7 @@ header .inner .actions .btn span:not(.title) {
 .picture-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
     height: 700px;
+    z-index: 98;
 }
 .picture-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/3.jpg);
@@ -1946,15 +1947,10 @@ header .inner .actions .btn span:not(.title) {
     transition: all 500ms ease-in-out;
     overflow: hidden;
 }
-// body {
-//     overflow-y: scroll;
-// }
-// #h {
-//     overflow-y: auto;
-// }
-// body {
-//     overflow: hidden;
-// }
 .main.is-active {
     overflow: hidden;
+}
+#bespoke {
+    background-color: #566C88;
+    border: #566C88;
 }
