@@ -84,17 +84,19 @@ window.onload = () => {
     const dimmed = document.querySelector('.menu-active');
     const shut_menu = document.querySelector('.menu-active');
 
-menu_btn.addEventListener('click', function() {
-    toggleMenu();
-    $('#overlay').show();
-    $('.lines-button').addClass('close');
-});
+    menu_btn.addEventListener('click', function() {
+        toggleMenu();
+        $('#overlay').show();
+        $('.lines-button').addClass('close');
+        document.getElementById("h").style.overflow = "hidden";
+    });
 
-dimmed.addEventListener('click', function(){
-    toggleMenu();
-    $('#overlay').hide();
-    $('.lines-button').removeClass('close');
-})
+    dimmed.addEventListener('click', function(){
+        toggleMenu();
+        $('#overlay').hide();
+        $('.lines-button').removeClass('close');
+        document.getElementById("h").style.overflow = "scroll";
+    })
 
 function toggleMenu() {
       menu_btn.classList.toggle('is-active');
