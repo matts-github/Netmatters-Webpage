@@ -52,7 +52,7 @@ header .search-form-wrapper--tablet>.search-form>.form-control {
     display: none;
 }
 button {
-    overflow: visible;
+    // overflow: visible;
 }
 button, select {
     text-transform: none;
@@ -130,7 +130,7 @@ header .search-form-wrapper--tablet>.search-form button .glyphicon {
         display: inline-block!important;
         border-radius: 0;
         width: 174px;
-        margin-right: -4.5px;
+        margin-right: -5px;
     }
 }
 // Updates go here
@@ -401,7 +401,7 @@ header .inner .actions .btn .icon-mouse, header .inner .actions .btn .icon-paper
     background-color: transparent;
     border: 0;
     margin: 0;
-    overflow: visible;
+    // overflow: visible;
 }
 .hamburger-box {
     width: 33px;

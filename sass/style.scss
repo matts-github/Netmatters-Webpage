@@ -771,7 +771,7 @@ label {
     margin-top: -20px; 
 }
 #tint {
-    box-shadow: 0 5px 35px #b3b0b0;
+    box-shadow: inset -3px 11px 20px 0px #fff;
 }
 input {
     border-radius: 0;
@@ -914,7 +914,7 @@ input {
     transition: all 500ms ease-in-out;
 }
 .menu-active.is-active {
-    overflow: hidden;
+    overflow: scroll;
     display: block;
     height: 100vh;
     width: 100%;
@@ -1790,7 +1790,11 @@ header .inner .actions .btn span:not(.title) {
 }
 .menu-active.is-active {
     // transform: translate3d(-275px, 0, 0);
-    overflow-y: scroll;
+    // overflow-y: scroll;
+}
+.fa-angle-double-right {
+    font-size: 0.45rem;
+    padding-right: 10px;
 }
 .fa-check-square:before, .fa-square-check:before {
     content: "\f14a";
@@ -1845,8 +1849,8 @@ header .inner .actions .btn span:not(.title) {
     border: #67809F;
 }
 .h1 {
-    font-size: 50;
-    color: purple;
+    font-size: 3rem;
+    color: #fff;
 }
 @media screen and (max-width: 992px) {
     .main.is-active {
@@ -1941,7 +1945,7 @@ header .inner .actions .btn span:not(.title) {
     position: relative;
     width: 100%;
     height: 100vh;
-    transform: translate3d(0, 0, 0);
+    // transform: translate3d(0, 0, 0);
     transition: all 500ms ease-in-out;
     overflow: hidden;
 }
