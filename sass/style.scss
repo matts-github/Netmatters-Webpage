@@ -50,6 +50,8 @@ body {
     position: relative;
     z-index: 10;
     height: 100%;
+    overflow-y: scroll;
+    width: 100vw;
 }
 .main-outer {
     height: 100%;
@@ -909,12 +911,11 @@ input {
     transform: translate3d(-335px, 0, 0);
     z-index: 9998;
     background-color: rgba(0, 0, 0, 0.5);
-    overflow-y: hidden;
+    overflow-x: hidden;
     animation: fade 500ms;
     transition: all 500ms ease-in-out;
 }
 .menu-active.is-active {
-    overflow: scroll;
     display: block;
     height: 100vh;
     width: 100%;
@@ -1406,7 +1407,7 @@ p {
     height: 100%;
     opacity: 1;
     transition: opacity .5s;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 #container>.sidebar>.main>ul>li:hover>a {
     background-color: hsla(0,0%,100%,.05);
@@ -1422,7 +1423,7 @@ p {
 }
 .main .main.is-active .main:after {
     background-color: black;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 // .hamburger-inner {
 //     display: none;
@@ -1594,12 +1595,6 @@ p {
     background-color: rgba(0, 0, 0, 0.5);
     animation: fade 500ms;
 }
-// .menu-active {
-//     display: none;
-// }
-// .menu-active.is-active {
-//     display: block;
-// }
 .burger {
     background-color: #333645;
     text-align: center;
@@ -1785,7 +1780,7 @@ header .inner .actions .btn span:not(.title) {
 }
 .menu-active {
     // transform: translate3d(-335px, 0, 0);
-    overflow-y: hidden;
+    // overflow-y: scroll;
     transition: all 500ms ease-in-out;
 }
 .menu-active.is-active {
@@ -1817,7 +1812,7 @@ header .inner .actions .btn span:not(.title) {
     }
     .main.is-active {
         // transform: translate3d(-335px, 0, 0);
-        overflow-y: scroll;
+        overflow-y: hidden;
         transition: all 500ms ease-in-out;
     }
     // .menu-active.is-active {
@@ -1857,7 +1852,7 @@ header .inner .actions .btn span:not(.title) {
         transform: translate3d(-275px, 0, 0);
         transition: all 300ms ease-in-out;
         // overflow: auto;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
     .menu-active {
         overflow-y: hidden;
@@ -1910,7 +1905,7 @@ header .inner .actions .btn span:not(.title) {
     }
 }
 .picture-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pic.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pic.jpg) center;
     height: 700px;
 }
 .text {
@@ -1921,24 +1916,24 @@ header .inner .actions .btn span:not(.title) {
     color: #fff;
 }
 .picture-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/2.jpg) center;
     height: 700px;
     z-index: 98;
 }
 .picture-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/3.jpg) center;
     height: 700px;
 }
 .picture-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/4.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/4.jpg) center;
     height: 700px;
 }
 .picture-5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/5.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/5.jpg) center;
     height: 700px;
 }
 .picture-6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/6.jpg) center;
     height: 700px;
 }
 .main {

@@ -88,14 +88,14 @@ window.onload = () => {
         toggleMenu();
         $('#overlay').show();
         $('.lines-button').addClass('close');
-        document.getElementById("h").style.overflow = "hidden";
+        document.getElementById("home-page").style.overflowY = "hidden";
     });
 
     dimmed.addEventListener('click', function(){
         toggleMenu();
         $('#overlay').hide();
         $('.lines-button').removeClass('close');
-        document.getElementById("h").style.overflow = "scroll";
+        document.getElementById("home-page").style.overflowY = "scroll";
     })
 
 function toggleMenu() {
